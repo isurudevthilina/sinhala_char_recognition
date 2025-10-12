@@ -328,31 +328,6 @@ python scripts/analyze_class_identification.py
 - **Real-time feedback** and status updates
 - **Professional layout** with model statistics
 
-5. **Run tests**
-```bash
-python -m pytest tests/
-```
-
-6. **Submit a pull request**
-
-### Contribution Guidelines
-
-- **Code Style**: Follow PEP 8 guidelines
-- **Documentation**: Update README and docstrings
-- **Testing**: Add tests for new features
-- **Performance**: Ensure changes don't degrade model performance
-- **Cultural Sensitivity**: Respect Sri Lankan cultural elements
-
-### Areas for Contribution
-
-- 🔧 **Model Improvements**: Enhanced architectures, better accuracy
-- 🌐 **Web Interface**: UX/UI enhancements, accessibility features
-- 📱 **Mobile Support**: React Native or PWA implementation
-- 🎨 **Design**: Traditional Sri Lankan UI elements
-- 📖 **Documentation**: Tutorials, API documentation
-- 🧪 **Testing**: Unit tests, integration tests
-- 🌍 **Internationalization**: Multi-language support
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -364,10 +339,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **PyTorch**: BSD License
 - **Flask**: BSD License
 
-**🎨 Built with ❤️ for the Sri Lankan community**
-
 ### Contact
 
 - **Email**: isurudev2004@gmail.com
-- **Project**: [Sinhala Character Recognition](https://github.com/your-repo/sinhala-char-recognition)
+- **Project**: [Sinhala Character Recognition](https://github.com/isurudevthilina/sinhala_char_recognition)
+
+**🎨 Built with ❤️ for the Sri Lankan community**
 
