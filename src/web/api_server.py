@@ -4,6 +4,10 @@ Flask API Backend for Sinhala Character Recognition
 Connects the web interface with the trained model
 """
 
+# Fix MPS compatibility issue - set fallback before importing PyTorch
+import os
+os.environ["PYTORCH_ENABLE_MPS_FALLBACK"] = "1"
+
 from flask import Flask, request, jsonify, render_template, send_from_directory
 from flask_cors import CORS
 import base64

@@ -4,6 +4,10 @@ Sinhala Character Recognition Inference System
 Real-time inference for graphic tablet input
 """
 
+# Fix MPS compatibility issue - set fallback before importing PyTorch
+import os
+os.environ["PYTORCH_ENABLE_MPS_FALLBACK"] = "1"
+
 import torch
 import torch.nn.functional as F
 from PIL import Image
@@ -31,10 +35,12 @@ class SinhalaCharacterRecognizer:
     Optimized for graphic tablet input
     """
 
-    def __init__(self, model_path, device='mps', confidence_threshold=0.1):
+    def __init__(self, model_path, device='auto', confidence_threshold=0.1):
         self.model_path = model_path
-        self.device = device
         self.confidence_threshold = confidence_threshold
+
+        # Smart device selection
+        self.device = self._select_optimal_device(device)
 
         # Load class mappings
         self.class_to_idx, self.idx_to_class, self.unicode_map = load_class_mappings()
@@ -46,8 +52,38 @@ class SinhalaCharacterRecognizer:
 
         print(f"🎨 Sinhala Character Recognizer initialized")
         print(f"📊 Supporting {self.num_classes} character classes")
-        print(f"📱 Device: {device}")
+        print(f"📱 Device: {self.device}")
         print(f"🎯 Confidence threshold: {confidence_threshold}")
+
+    def _select_optimal_device(self, device_preference):
+        """
+        Select the optimal device for inference, avoiding MPS compatibility issues
+        """
+        if device_preference == 'auto':
+            # Check if CUDA is available
+            if torch.cuda.is_available():
+                print("🚀 CUDA GPU detected, using CUDA")
+                return 'cuda'
+
+            # For MobilenetV3 on macOS, avoid MPS due to hardsigmoid compatibility
+            # Use CPU as fallback for better stability
+            elif torch.backends.mps.is_available():
+                print("⚠️  MPS available but using CPU for MobilenetV3 compatibility")
+                print("    (hardsigmoid operation not yet supported on MPS)")
+                return 'cpu'
+            else:
+                print("💻 Using CPU for inference")
+                return 'cpu'
+        elif device_preference == 'mps':
+            if torch.backends.mps.is_available():
+                print("⚠️  Warning: MPS may have compatibility issues with MobilenetV3")
+                print("    If you encounter errors, consider using 'cpu' or 'auto'")
+                return 'mps'
+            else:
+                print("❌ MPS not available, falling back to CPU")
+                return 'cpu'
+        else:
+            return device_preference
 
     def _load_model(self):
         """Load the trained model"""
