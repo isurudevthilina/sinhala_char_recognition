@@ -3,349 +3,811 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sinhala Character Recognition - Tablet Input</title>
+    <title>Sinhala Character Recognition - AI Canvas</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        :root {
+            /* Navy Blue Color Palette */
+            --primary-navy: #1e3a8a;
+            --secondary-navy: #3b82f6;
+            --accent-blue: #60a5fa;
+            --light-blue: #dbeafe;
+            --dark-navy: #1e293b;
+            --text-primary: #0f172a;
+            --text-secondary: #64748b;
+            --surface: #ffffff;
+            --surface-alt: #f8fafc;
+            --border: #e2e8f0;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --error: #ef4444;
+
+            /* Shadows & Effects */
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+            --glow: 0 0 0 3px rgb(59 130 246 / 0.15);
+
+            /* Animations */
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-fast: all 0.15s ease;
+        }
+
+        * {
             margin: 0;
-            padding: 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, var(--primary-navy) 0%, var(--dark-navy) 100%);
+            color: var(--text-primary);
             min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Animated Background */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background:
+                radial-gradient(circle at 20% 80%, rgba(96, 165, 250, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 40%, rgba(30, 58, 138, 0.1) 0%, transparent 50%);
+            animation: backgroundMove 20s ease-in-out infinite;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        @keyframes backgroundMove {
+            0%, 100% { transform: translate(0, 0) rotate(0deg); }
+            33% { transform: translate(-20px, -20px) rotate(1deg); }
+            66% { transform: translate(20px, -10px) rotate(-1deg); }
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-            overflow: hidden;
+            padding: 2rem;
+            position: relative;
         }
 
+        /* Header with 3D Effect */
         .header {
-            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-            color: white;
-            padding: 30px;
             text-align: center;
+            margin-bottom: 3rem;
+            position: relative;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent-blue), var(--secondary-navy));
+            border-radius: 2px;
+            animation: headerGlow 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes headerGlow {
+            from { box-shadow: 0 0 10px var(--accent-blue); }
+            to { box-shadow: 0 0 20px var(--secondary-navy), 0 0 30px var(--accent-blue); }
         }
 
         .header h1 {
-            margin: 0;
-            font-size: 2.5em;
-            font-weight: bold;
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--surface) 0%, var(--accent-blue) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+            text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            animation: titleFloat 6s ease-in-out infinite;
         }
 
-        .header p {
-            margin: 10px 0 0 0;
+        @keyframes titleFloat {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+
+        .header .subtitle {
+            font-size: 1.25rem;
+            color: var(--light-blue);
+            font-weight: 400;
             opacity: 0.9;
-            font-size: 1.1em;
         }
 
+        /* Main Content Grid */
         .main-content {
-            display: flex;
-            gap: 30px;
-            padding: 30px;
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            gap: 2.5rem;
+            align-items: start;
         }
 
+        /* Drawing Panel with Glass Effect */
         .drawing-panel {
-            flex: 2;
-        }
-
-        .results-panel {
-            flex: 1;
-            background: #f8f9fa;
-            border-radius: 15px;
-            padding: 25px;
-        }
-
-        .canvas-container {
-            background: white;
-            border: 3px solid #e9ecef;
-            border-radius: 15px;
-            box-shadow: inset 0 2px 10px rgba(0,0,0,0.05);
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 24px;
+            padding: 2rem;
+            box-shadow: var(--shadow-xl);
+            border: 1px solid rgba(255, 255, 255, 0.2);
             position: relative;
-            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .drawing-panel::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--accent-blue), transparent);
+        }
+
+        /* Canvas Container with 3D Effect */
+        .canvas-container {
+            position: relative;
+            margin: 2rem 0;
+            border-radius: 16px;
+            overflow: hidden;
+            transform: perspective(1000px) rotateX(2deg);
+            transition: var(--transition);
+        }
+
+        .canvas-container:hover {
+            transform: perspective(1000px) rotateX(0deg) translateY(-4px);
+            box-shadow: 0 25px 50px rgba(30, 58, 138, 0.2);
         }
 
         #drawingCanvas {
-            border-radius: 15px;
-            cursor: crosshair;
             display: block;
+            border: 3px solid var(--border);
+            border-radius: 16px;
+            background: var(--surface);
+            cursor: crosshair;
+            transition: var(--transition);
         }
 
+        #drawingCanvas:focus {
+            outline: none;
+            border-color: var(--secondary-navy);
+            box-shadow: var(--glow);
+        }
+
+        /* Canvas Info Badge */
         .canvas-info {
             position: absolute;
-            top: 10px;
-            left: 10px;
-            background: rgba(0,0,0,0.7);
+            top: 16px;
+            left: 16px;
+            background: rgba(30, 58, 138, 0.9);
             color: white;
-            padding: 5px 10px;
-            border-radius: 15px;
-            font-size: 0.8em;
+            padding: 0.5rem 1rem;
+            border-radius: 12px;
+            font-size: 0.875rem;
+            font-family: 'JetBrains Mono', monospace;
+            backdrop-filter: blur(10px);
+            animation: fadeInUp 0.6s ease-out 0.3s both;
         }
 
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Modern Controls */
         .controls {
             display: flex;
-            gap: 15px;
             flex-wrap: wrap;
+            gap: 1rem;
             align-items: center;
-            margin-bottom: 20px;
+            margin-bottom: 1.5rem;
         }
 
         .btn {
-            padding: 12px 25px;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
             border: none;
-            border-radius: 25px;
+            border-radius: 12px;
+            font-family: inherit;
+            font-size: 0.875rem;
+            font-weight: 500;
             cursor: pointer;
-            font-size: 1em;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+            text-decoration: none;
+            user-select: none;
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.5s;
+        }
+
+        .btn:hover::before {
+            left: 100%;
         }
 
         .btn-primary {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, var(--secondary-navy), var(--primary-navy));
             color: white;
+            box-shadow: var(--shadow-md);
         }
 
-        .btn-secondary {
-            background: #6c757d;
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .btn-success {
+            background: linear-gradient(135deg, var(--success), #059669);
             color: white;
         }
 
         .btn-danger {
-            background: #dc3545;
+            background: linear-gradient(135deg, var(--error), #dc2626);
             color: white;
         }
 
-        .btn-success {
-            background: #28a745;
-            color: white;
-        }
-
-        .btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        .btn-secondary {
+            background: var(--surface-alt);
+            color: var(--text-secondary);
+            border: 1px solid var(--border);
         }
 
         .btn:disabled {
-            opacity: 0.6;
+            opacity: 0.5;
             cursor: not-allowed;
-            transform: none;
+            transform: none !important;
         }
 
+        /* Modern Slider Controls */
         .slider-group {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 0.75rem;
+            padding: 0.75rem 1rem;
+            background: var(--surface-alt);
+            border-radius: 12px;
+            border: 1px solid var(--border);
         }
 
         .slider-group label {
-            font-weight: 600;
-            color: #495057;
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            min-width: fit-content;
         }
 
         .slider {
+            -webkit-appearance: none;
+            appearance: none;
             width: 100px;
+            height: 6px;
+            border-radius: 3px;
+            background: var(--border);
+            outline: none;
+            cursor: pointer;
         }
 
-        .predictions {
-            margin-top: 20px;
+        .slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: var(--secondary-navy);
+            cursor: pointer;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition-fast);
         }
 
-        .predictions h3 {
-            color: #495057;
-            margin-bottom: 20px;
-            font-size: 1.3em;
+        .slider::-webkit-slider-thumb:hover {
+            transform: scale(1.1);
+            box-shadow: var(--shadow-md);
         }
 
-        .prediction-item {
-            background: white;
-            padding: 15px;
-            margin-bottom: 10px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        .slider::-moz-range-thumb {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: var(--secondary-navy);
+            cursor: pointer;
+            border: none;
+        }
+
+        .value-display {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.875rem;
+            color: var(--text-primary);
+            font-weight: 500;
+            min-width: 40px;
+        }
+
+        /* Results Panel with Glass Effect */
+        .results-panel {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 24px;
+            padding: 2rem;
+            box-shadow: var(--shadow-xl);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            position: sticky;
+            top: 2rem;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .results-panel::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .results-panel::-webkit-scrollbar-track {
+            background: var(--surface-alt);
+            border-radius: 3px;
+        }
+
+        .results-panel::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 3px;
+        }
+
+        .results-panel::-webkit-scrollbar-thumb:hover {
+            background: var(--text-secondary);
+        }
+
+        /* Section Headers */
+        .section-header {
             display: flex;
-            justify-content: space-between;
             align-items: center;
-            transition: transform 0.2s ease;
-        }
-
-        .prediction-item:hover {
-            transform: translateX(5px);
-        }
-
-        .prediction-char {
-            font-size: 2em;
-            font-weight: bold;
-            color: #4facfe;
-        }
-
-        .prediction-info {
-            text-align: right;
-        }
-
-        .prediction-confidence {
-            font-size: 1.2em;
-            font-weight: bold;
-            color: #28a745;
-        }
-
-        .prediction-name {
-            font-size: 0.9em;
-            color: #6c757d;
-            margin-top: 2px;
-        }
-
-        .status {
-            padding: 15px;
-            border-radius: 10px;
-            margin-bottom: 20px;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.25rem;
             font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .section-header i {
+            color: var(--secondary-navy);
+        }
+
+        /* Status Messages */
+        .status {
+            padding: 1rem 1.25rem;
+            border-radius: 12px;
+            margin-bottom: 1.5rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            animation: slideIn 0.3s ease-out;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(20px); }
+            to { opacity: 1; transform: translateX(0); }
         }
 
         .status.loading {
-            background: #fff3cd;
-            color: #856404;
-            border: 1px solid #ffeaa7;
+            background: linear-gradient(135deg, #fef3c7, #fed7aa);
+            color: #92400e;
+            border-left: 4px solid var(--warning);
         }
 
         .status.success {
-            background: #d4edda;
-            color: #155724;
-            border: 1px solid #c3e6cb;
+            background: linear-gradient(135deg, #d1fae5, #a7f3d0);
+            color: #065f46;
+            border-left: 4px solid var(--success);
         }
 
         .status.error {
-            background: #f8d7da;
-            color: #721c24;
-            border: 1px solid #f5c6cb;
+            background: linear-gradient(135deg, #fee2e2, #fecaca);
+            color: #991b1b;
+            border-left: 4px solid var(--error);
         }
 
-        .pressure-info {
-            background: rgba(0,0,0,0.05);
-            padding: 10px;
-            border-radius: 10px;
-            margin-top: 10px;
-            font-size: 0.9em;
+        .loading-spinner {
+            width: 16px;
+            height: 16px;
+            border: 2px solid transparent;
+            border-top: 2px solid currentColor;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
         }
 
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Prediction Items */
+        .prediction-item {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 1.25rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: var(--transition);
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .prediction-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(135deg, var(--secondary-navy), var(--accent-blue));
+            transform: scaleY(0);
+            transition: var(--transition);
+        }
+
+        .prediction-item:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--accent-blue);
+        }
+
+        .prediction-item:hover::before {
+            transform: scaleY(1);
+        }
+
+        .prediction-char {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-navy);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--light-blue), #e0f2fe);
+            border-radius: 12px;
+            margin-right: 1rem;
+        }
+
+        .prediction-info {
+            flex: 1;
+        }
+
+        .prediction-confidence {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--success);
+            margin-bottom: 0.25rem;
+        }
+
+        .prediction-name {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .confidence-bar {
+            width: 100%;
+            height: 4px;
+            background: var(--border);
+            border-radius: 2px;
+            margin-top: 0.5rem;
+            overflow: hidden;
+        }
+
+        .confidence-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--success), var(--accent-blue));
+            border-radius: 2px;
+            transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Model Info Card */
         .model-info {
-            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-            padding: 20px;
-            border-radius: 15px;
-            margin-bottom: 20px;
-        }
-
-        .model-info h4 {
-            margin: 0 0 10px 0;
-            color: #495057;
+            background: linear-gradient(135deg, var(--light-blue), #e0f2fe);
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border: 1px solid rgba(96, 165, 250, 0.2);
         }
 
         .model-stats {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 10px;
-            font-size: 0.9em;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
         }
 
         .stat-item {
-            background: rgba(255,255,255,0.7);
-            padding: 8px;
-            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 1rem;
+            border-radius: 12px;
+            text-align: center;
+            transition: var(--transition);
+        }
+
+        .stat-item:hover {
+            transform: translateY(-2px);
+            background: rgba(255, 255, 255, 0.95);
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-navy);
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .stat-label {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            color: var(--text-secondary);
+            padding: 3rem 1rem;
+        }
+
+        .empty-state i {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: var(--accent-blue);
+        }
+
+        /* Tips Section */
+        .tips-section {
+            background: var(--surface-alt);
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid var(--secondary-navy);
+        }
+
+        .tips-section h4 {
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .tips-section ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .tips-section li {
+            padding: 0.5rem 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            font-size: 0.875rem;
+            line-height: 1.5;
+        }
+
+        .tips-section li::before {
+            content: '•';
+            color: var(--secondary-navy);
+            font-weight: bold;
+            margin-top: 0.1rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .main-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .results-panel {
+                position: relative;
+                top: 0;
+                max-height: none;
+            }
         }
 
         @media (max-width: 768px) {
-            .main-content {
-                flex-direction: column;
+            .container {
+                padding: 1rem;
             }
 
             .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .btn {
                 justify-content: center;
+            }
+
+            .slider-group {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0.5rem;
+            }
+
+            .slider {
+                width: 100%;
+            }
+        }
+
+        /* Animation Classes */
+        .animate-in {
+            animation: slideInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .bounce-in {
+            animation: bounceIn 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+        }
+
+        @keyframes bounceIn {
+            from {
+                opacity: 0;
+                transform: scale(0.3);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <h1>🎨 Sinhala Character Recognition</h1>
-            <p>Draw Sinhala characters using your graphic tablet or mouse</p>
+        <div class="header animate-in">
+            <h1><i class="fas fa-palette"></i> Sinhala AI Canvas</h1>
+            <p class="subtitle">Advanced Neural Character Recognition • Real-time AI Analysis</p>
         </div>
 
         <div class="main-content">
-            <div class="drawing-panel">
+            <div class="drawing-panel animate-in">
                 <div class="model-info">
-                    <h4>🤖 AI Model Information</h4>
+                    <div class="section-header">
+                        <i class="fas fa-brain"></i>
+                        AI Model Statistics
+                    </div>
                     <div class="model-stats">
-                        <div class="stat-item"><strong>Classes:</strong> 454 characters</div>
-                        <div class="stat-item"><strong>Accuracy:</strong> 90.48%</div>
-                        <div class="stat-item"><strong>Top-3 Acc:</strong> 96.57%</div>
-                        <div class="stat-item"><strong>F1-Score:</strong> 90.46%</div>
+                        <div class="stat-item">
+                            <span class="stat-value">454</span>
+                            <span class="stat-label">Characters</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">90.48%</span>
+                            <span class="stat-label">Accuracy</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">96.57%</span>
+                            <span class="stat-label">Top-3</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">97.29%</span>
+                            <span class="stat-label">Top-5</span>
+                        </div>
                     </div>
                 </div>
 
                 <div class="canvas-container">
                     <canvas id="drawingCanvas" width="500" height="500"></canvas>
                     <div class="canvas-info">
-                        <div>Canvas: 500×500 | Model Input: 80×80</div>
-                        <div id="pressureInfo">Pressure: Detecting...</div>
+                        <div><i class="fas fa-expand-arrows-alt"></i> 500×500 → 80×80</div>
+                        <div id="pressureInfo"><i class="fas fa-hand-pointer"></i> Pressure: Ready</div>
                     </div>
                 </div>
 
                 <div class="controls">
-                    <button class="btn btn-success" id="recognizeBtn">🔍 Recognize Character</button>
-                    <button class="btn btn-danger" id="clearBtn">🗑️ Clear Canvas</button>
-                    <button class="btn btn-secondary" id="undoBtn">↶ Undo</button>
+                    <button class="btn btn-success" id="recognizeBtn">
+                        <i class="fas fa-search"></i>
+                        Analyze Character
+                    </button>
+                    <button class="btn btn-danger" id="clearBtn">
+                        <i class="fas fa-eraser"></i>
+                        Clear Canvas
+                    </button>
+                    <button class="btn btn-secondary" id="undoBtn">
+                        <i class="fas fa-undo"></i>
+                        Undo
+                    </button>
 
                     <div class="slider-group">
-                        <label for="brushSize">Brush Size:</label>
+                        <label for="brushSize">
+                            <i class="fas fa-paint-brush"></i>
+                            Brush
+                        </label>
                         <input type="range" id="brushSize" class="slider" min="1" max="20" value="8">
-                        <span id="brushSizeValue">8px</span>
+                        <span id="brushSizeValue" class="value-display">8px</span>
                     </div>
 
                     <div class="slider-group">
-                        <label for="brushOpacity">Opacity:</label>
+                        <label for="brushOpacity">
+                            <i class="fas fa-adjust"></i>
+                            Opacity
+                        </label>
                         <input type="range" id="brushOpacity" class="slider" min="0.1" max="1" step="0.1" value="1">
-                        <span id="opacityValue">100%</span>
+                        <span id="opacityValue" class="value-display">100%</span>
                     </div>
                 </div>
 
-                <div class="pressure-info">
-                    <strong>📝 Drawing Tips:</strong>
-                    <ul style="margin: 5px 0; padding-left: 20px;">
-                        <li>Use natural drawing pressure with your tablet</li>
-                        <li>Draw characters clearly in the center of the canvas</li>
-                        <li>Single characters work best - avoid multiple characters</li>
-                        <li>The model recognizes 454 different Sinhala characters</li>
+                <div class="tips-section">
+                    <h4>
+                        <i class="fas fa-lightbulb"></i>
+                        Pro Tips for Best Results
+                    </h4>
+                    <ul>
+                        <li>Draw characters clearly in the center area</li>
+                        <li>Use natural pressure with your graphics tablet</li>
+                        <li>Single characters work better than multiple</li>
+                        <li>Try different brush sizes for optimal recognition</li>
                     </ul>
                 </div>
             </div>
 
-            <div class="results-panel">
+            <div class="results-panel animate-in">
                 <div id="statusMessage" class="status" style="display: none;"></div>
 
                 <div class="predictions">
-                    <h3>🎯 Recognition Results</h3>
+                    <div class="section-header">
+                        <i class="fas fa-chart-line"></i>
+                        Recognition Results
+                    </div>
                     <div id="predictionsList">
-                        <div style="text-align: center; color: #6c757d; padding: 40px;">
-                            <div style="font-size: 3em; margin-bottom: 10px;">✏️</div>
-                            <p>Draw a Sinhala character and click "Recognize Character" to see predictions</p>
+                        <div class="empty-state">
+                            <i class="fas fa-pencil-alt"></i>
+                            <p>Draw a Sinhala character and click "Analyze Character" to see AI predictions with confidence scores</p>
                         </div>
                     </div>
                 </div>
 
-                <div style="margin-top: 30px; padding-top: 20px; border-top: 2px solid #e9ecef;">
-                    <h4 style="color: #495057;">📊 Session Statistics</h4>
-                    <div class="model-stats">
-                        <div class="stat-item">
-                            <strong>Predictions:</strong>
-                            <span id="predictionCount">0</span>
-                        </div>
-                        <div class="stat-item">
-                            <strong>Avg. Confidence:</strong>
-                            <span id="avgConfidence">-</span>
-                        </div>
+                <div class="model-stats">
+                    <div class="stat-item">
+                        <span class="stat-value" id="predictionCount">0</span>
+                        <span class="stat-label">Predictions</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="avgConfidence">-</span>
+                        <span class="stat-label">Avg. Confidence</span>
                     </div>
                 </div>
             </div>
