@@ -44,6 +44,18 @@ This system recognizes **454 different Sinhala characters** with **90.48% accura
 │ Canvas          │    │ & Preprocessing │    │ Classification  │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
+## Dataset
+
+This project uses the **Sinhala Letter Dataset** from Kaggle.
+- **Dataset**: [Sinhala Letter 454](https://www.kaggle.com/datasets/sathiralamal/sinhala-letter-454)
+- **Creator**: Sathira Lamal
+- **Source**: Kaggle
+
+### Dataset Details
+The dataset contains 454 classes of Sinhala letters and characters, providing comprehensive coverage for Sinhala handwriting recognition tasks.
+
+### License
+Please refer to the [dataset page](https://www.kaggle.com/datasets/sathiralamal/sinhala-letter-454) for licensing information.
 
 ## 🛠️ Technologies Used
 

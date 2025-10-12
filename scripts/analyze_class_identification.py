@@ -8,7 +8,7 @@ import pandas as pd
 
 def analyze_class_identification():
     # Load the detailed classification report
-    df = pd.read_csv('evaluation_results/detailed_classification_report.csv')
+    df = pd.read_csv('../evaluation_results/detailed_classification_report.csv')
 
     print('📊 CLASS IDENTIFICATION ANALYSIS')
     print('=' * 50)
