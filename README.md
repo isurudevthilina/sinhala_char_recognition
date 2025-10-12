@@ -7,6 +7,18 @@ A state-of-the-art AI-powered system for recognizing handwritten Sinhala charact
 [![Flask](https://img.shields.io/badge/Flask-2.0+-green.svg)](https://flask.palletsprojects.com)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+## 🖼️ Interface Preview
+
+<div align="center">
+
+![Sinhala Character Recognition Interface](docs/screenshots/main-interface.png)
+
+**Traditional Sri Lankan Design meets Modern AI Technology**
+
+*Experience the beauty of Sinhala script recognition with our culturally-inspired interface featuring traditional Kandyan temple aesthetics, pressure-sensitive drawing, and real-time AI predictions.*
+
+</div>
+
 ## 🚀 Project Overview
 
 This system recognizes **454 different Sinhala characters** with **90.48% accuracy** using a custom-trained MobileNetV3-Large model. It features a responsive web interface optimized for graphic tablets, making it perfect for digital handwriting recognition and educational applications.
@@ -44,7 +56,8 @@ This system recognizes **454 different Sinhala characters** with **90.48% accura
 │ Canvas          │    │ & Preprocessing │    │ Classification  │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
-## Dataset
+
+## 📊 Dataset
 
 This project uses the **Sinhala Letter Dataset** from Kaggle.
 - **Dataset**: [Sinhala Letter 454](https://www.kaggle.com/datasets/sathiralamal/sinhala-letter-454)
@@ -102,8 +115,9 @@ Please refer to the [dataset page](https://www.kaggle.com/datasets/sathiralamal/
 sinhala_char_recognition/
 ├── 📄 README.md                     # Project documentation
 ├── 📄 requirements.txt              # Python dependencies
-├── 📄 analyze_class_identification.py # Class analysis script
-├── 📄 setup_training.py            # Training setup utilities
+├── 📂 scripts/                     # Utility scripts
+│   ├── 📄 analyze_class_identification.py # Class analysis script
+│   └── 📄 setup_training.py        # Training setup utilities
 │
 ├── 📂 data/                        # Dataset directory
 │   ├── 📂 train/                  # Training data (454 classes)
@@ -144,7 +158,12 @@ sinhala_char_recognition/
 │   ├── 📊 performance_analysis.png
 │   └── 📊 training_history.png
 │
-└── 📂 docs/                       # Documentation
+├── 📂 analysis/                    # Performance analysis
+│   └── 📄 class_performance_analysis.json
+│
+└── 📂 docs/                       # Documentation & Screenshots
+    └── 📂 screenshots/            # UI Screenshots
+        └── 📸 main-interface.png
 ```
 
 ## 🚀 Quick Start
@@ -276,7 +295,7 @@ The system includes comprehensive evaluation tools:
 python src/eval/comprehensive_evaluation.py
 
 # Analyze class performance
-python analyze_class_identification.py
+python scripts/analyze_class_identification.py
 ```
 
 **Evaluation Outputs:**
@@ -309,120 +328,46 @@ python analyze_class_identification.py
 - **Real-time feedback** and status updates
 - **Professional layout** with model statistics
 
-## 🔌 API Endpoints
-
-### Character Recognition
-```http
-POST /api/recognize
-Content-Type: application/json
-
-{
-  "image": "base64_encoded_image_data",
-  "top_k": 5
-}
-```
-
-### Batch Processing
-```http
-POST /api/batch-recognize
-Content-Type: application/json
-
-{
-  "images": ["image1_base64", "image2_base64", ...],
-  "top_k": 5
-}
-```
-
-### Model Information
-```http
-GET /api/model-info
-```
-
-### Health Check
-```http
-GET /api/health
-```
-
-## 🚀 Deployment
-
-### Local Development
+5. **Run tests**
 ```bash
-# Development server
-python src/web/api_server.py
+python -m pytest tests/
 ```
 
-### Production Deployment
-```bash
-# Using Gunicorn (recommended)
-pip install gunicorn
-gunicorn --bind 0.0.0.0:9000 --workers 4 src.web.api_server:app
+6. **Submit a pull request**
 
-# Using Docker
-docker build -t sinhala-recognition .
-docker run -p 9000:9000 sinhala-recognition
-```
+### Contribution Guidelines
 
-### Environment Variables
-```bash
-export MODEL_PATH=models/your_model/best_model.pth
-export DEVICE=mps  # or cuda, cpu
-export PORT=9000
-export DEBUG=False
-```
+- **Code Style**: Follow PEP 8 guidelines
+- **Documentation**: Update README and docstrings
+- **Testing**: Add tests for new features
+- **Performance**: Ensure changes don't degrade model performance
+- **Cultural Sensitivity**: Respect Sri Lankan cultural elements
 
-## 🧪 Testing
+### Areas for Contribution
 
-### Unit Tests
-```bash
-# Test model inference
-python -c "from src.infer.character_recognizer import *; test_inference()"
-
-# Test API endpoints
-python -c "import requests; print(requests.get('http://localhost:9000/api/health').json())"
-```
-
-### Performance Testing
-```bash
-# Batch inference timing
-python scripts/benchmark_inference.py
-
-# Memory usage analysis
-python scripts/memory_profiling.py
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-### Development Guidelines
-- Follow PEP 8 style guidelines
-- Add docstrings to all functions and classes
-- Include unit tests for new features
-- Update README for significant changes
+- 🔧 **Model Improvements**: Enhanced architectures, better accuracy
+- 🌐 **Web Interface**: UX/UI enhancements, accessibility features
+- 📱 **Mobile Support**: React Native or PWA implementation
+- 🎨 **Design**: Traditional Sri Lankan UI elements
+- 📖 **Documentation**: Tutorials, API documentation
+- 🧪 **Testing**: Unit tests, integration tests
+- 🌍 **Internationalization**: Multi-language support
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+### Third-Party Licenses
 
-- **MobileNetV3** architecture from Google Research
-- **PyTorch** team for the excellent deep learning framework
-- **Sinhala language community** for inspiration and support
-- **Open source contributors** for various utilities and tools
+- **Dataset**: [Sinhala Letter 454](https://www.kaggle.com/datasets/sathiralamal/sinhala-letter-454) - Please refer to dataset page for licensing
+- **MobileNetV3**: Apache License 2.0
+- **PyTorch**: BSD License
+- **Flask**: BSD License
 
-## 📞 Support
+**🎨 Built with ❤️ for the Sri Lankan community**
 
-For questions, issues, or contributions:
+### Contact
 
-- 📧 **Email**: isurudev2004@gmail.com
-
-
-**Built with ❤️ for the Sinhala language community**
-
-*This project demonstrates the power of modern AI in preserving and digitizing cultural scripts and languages.*
+- **Email**: isurudev2004@gmail.com
+- **Project**: [Sinhala Character Recognition](https://github.com/your-repo/sinhala-char-recognition)
 
