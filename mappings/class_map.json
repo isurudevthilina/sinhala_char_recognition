@@ -1,0 +1,1818 @@
+{
+  "0": {
+    "folder_name": "1",
+    "character": "අ"
+  },
+  "1": {
+    "folder_name": "2",
+    "character": "ආ"
+  },
+  "2": {
+    "folder_name": "3",
+    "character": "ඇ"
+  },
+  "3": {
+    "folder_name": "4",
+    "character": "ඈ"
+  },
+  "4": {
+    "folder_name": "5",
+    "character": "ඉ"
+  },
+  "5": {
+    "folder_name": "6",
+    "character": "ඊ"
+  },
+  "6": {
+    "folder_name": "7",
+    "character": "උ"
+  },
+  "7": {
+    "folder_name": "8",
+    "character": "එ"
+  },
+  "8": {
+    "folder_name": "9",
+    "character": "ඒ"
+  },
+  "9": {
+    "folder_name": "10",
+    "character": "ඔ"
+  },
+  "10": {
+    "folder_name": "11",
+    "character": "ඕ"
+  },
+  "11": {
+    "folder_name": "12",
+    "character": "ක"
+  },
+  "12": {
+    "folder_name": "13",
+    "character": "කා"
+  },
+  "13": {
+    "folder_name": "14",
+    "character": "කැ"
+  },
+  "14": {
+    "folder_name": "15",
+    "character": "කෑ"
+  },
+  "15": {
+    "folder_name": "16",
+    "character": "කි"
+  },
+  "16": {
+    "folder_name": "17",
+    "character": "කී"
+  },
+  "17": {
+    "folder_name": "18",
+    "character": "කු"
+  },
+  "18": {
+    "folder_name": "19",
+    "character": "කූ"
+  },
+  "19": {
+    "folder_name": "20",
+    "character": "ක්"
+  },
+  "20": {
+    "folder_name": "21",
+    "character": "කෝ"
+  },
+  "21": {
+    "folder_name": "22",
+    "character": "ක්‍ර"
+  },
+  "22": {
+    "folder_name": "23",
+    "character": "ක්‍රි"
+  },
+  "23": {
+    "folder_name": "24",
+    "character": "ක්‍රී"
+  },
+  "24": {
+    "folder_name": "25",
+    "character": "ග"
+  },
+  "25": {
+    "folder_name": "26",
+    "character": "ගා"
+  },
+  "26": {
+    "folder_name": "27",
+    "character": "ගැ"
+  },
+  "27": {
+    "folder_name": "28",
+    "character": "ගෑ"
+  },
+  "28": {
+    "folder_name": "29",
+    "character": "ගි"
+  },
+  "29": {
+    "folder_name": "30",
+    "character": "ගී"
+  },
+  "30": {
+    "folder_name": "31",
+    "character": "ගු"
+  },
+  "31": {
+    "folder_name": "32",
+    "character": "ගූ"
+  },
+  "32": {
+    "folder_name": "33",
+    "character": "ග්"
+  },
+  "33": {
+    "folder_name": "34",
+    "character": "ගෝ"
+  },
+  "34": {
+    "folder_name": "35",
+    "character": "ග්‍ර"
+  },
+  "35": {
+    "folder_name": "36",
+    "character": "ග්‍රි"
+  },
+  "36": {
+    "folder_name": "37",
+    "character": "ග්‍රී"
+  },
+  "37": {
+    "folder_name": "38",
+    "character": "ච"
+  },
+  "38": {
+    "folder_name": "39",
+    "character": "චා"
+  },
+  "39": {
+    "folder_name": "40",
+    "character": "චැ"
+  },
+  "40": {
+    "folder_name": "41",
+    "character": "චෑ"
+  },
+  "41": {
+    "folder_name": "42",
+    "character": "චි"
+  },
+  "42": {
+    "folder_name": "43",
+    "character": "චී"
+  },
+  "43": {
+    "folder_name": "44",
+    "character": "චු"
+  },
+  "44": {
+    "folder_name": "45",
+    "character": "චූ"
+  },
+  "45": {
+    "folder_name": "46",
+    "character": "ච්"
+  },
+  "46": {
+    "folder_name": "47",
+    "character": "චෝ"
+  },
+  "47": {
+    "folder_name": "48",
+    "character": "ච්‍ර"
+  },
+  "48": {
+    "folder_name": "49",
+    "character": "ච්‍ර්"
+  },
+  "49": {
+    "folder_name": "50",
+    "character": "ච්‍රී"
+  },
+  "50": {
+    "folder_name": "51",
+    "character": "ජ"
+  },
+  "51": {
+    "folder_name": "52",
+    "character": "ජා"
+  },
+  "52": {
+    "folder_name": "53",
+    "character": "ජැ"
+  },
+  "53": {
+    "folder_name": "54",
+    "character": "ජෑ"
+  },
+  "54": {
+    "folder_name": "55",
+    "character": "ජි"
+  },
+  "55": {
+    "folder_name": "56",
+    "character": "ජී"
+  },
+  "56": {
+    "folder_name": "57",
+    "character": "ජු"
+  },
+  "57": {
+    "folder_name": "58",
+    "character": "ජූ"
+  },
+  "58": {
+    "folder_name": "59",
+    "character": "ජ්"
+  },
+  "59": {
+    "folder_name": "60",
+    "character": "ජෝ"
+  },
+  "60": {
+    "folder_name": "61",
+    "character": "ජ්‍ර"
+  },
+  "61": {
+    "folder_name": "62",
+    "character": "ජ්‍රි"
+  },
+  "62": {
+    "folder_name": "63",
+    "character": "ජ්‍රී"
+  },
+  "63": {
+    "folder_name": "64",
+    "character": "ට"
+  },
+  "64": {
+    "folder_name": "65",
+    "character": "ටා"
+  },
+  "65": {
+    "folder_name": "66",
+    "character": "ටැ"
+  },
+  "66": {
+    "folder_name": "67",
+    "character": "ටෑ"
+  },
+  "67": {
+    "folder_name": "68",
+    "character": "ටි"
+  },
+  "68": {
+    "folder_name": "69",
+    "character": "ටී"
+  },
+  "69": {
+    "folder_name": "70",
+    "character": "ටු"
+  },
+  "70": {
+    "folder_name": "71",
+    "character": "ටූ"
+  },
+  "71": {
+    "folder_name": "72",
+    "character": "ට්"
+  },
+  "72": {
+    "folder_name": "73",
+    "character": "ටෝ"
+  },
+  "73": {
+    "folder_name": "74",
+    "character": "ට්‍ර"
+  },
+  "74": {
+    "folder_name": "75",
+    "character": "ට්‍ර්"
+  },
+  "75": {
+    "folder_name": "76",
+    "character": "ට්‍රි"
+  },
+  "76": {
+    "folder_name": "77",
+    "character": "ඩ"
+  },
+  "77": {
+    "folder_name": "78",
+    "character": "ඩා"
+  },
+  "78": {
+    "folder_name": "79",
+    "character": "ඩැ"
+  },
+  "79": {
+    "folder_name": "80",
+    "character": "ඩෑ"
+  },
+  "80": {
+    "folder_name": "81",
+    "character": "ඩි"
+  },
+  "81": {
+    "folder_name": "82",
+    "character": "ඩී"
+  },
+  "82": {
+    "folder_name": "83",
+    "character": "ඩු"
+  },
+  "83": {
+    "folder_name": "84",
+    "character": "ඩූ"
+  },
+  "84": {
+    "folder_name": "85",
+    "character": "ඩ්"
+  },
+  "85": {
+    "folder_name": "86",
+    "character": "ඩෝ"
+  },
+  "86": {
+    "folder_name": "87",
+    "character": "ඩ්‍ර"
+  },
+  "87": {
+    "folder_name": "88",
+    "character": "ඩ්‍ර්"
+  },
+  "88": {
+    "folder_name": "89",
+    "character": "ඩ්‍රි"
+  },
+  "89": {
+    "folder_name": "90",
+    "character": "ණ"
+  },
+  "90": {
+    "folder_name": "91",
+    "character": "ණා"
+  },
+  "91": {
+    "folder_name": "92",
+    "character": "ණි"
+  },
+  "92": {
+    "folder_name": "93",
+    "character": "ත"
+  },
+  "93": {
+    "folder_name": "94",
+    "character": "තා"
+  },
+  "94": {
+    "folder_name": "95",
+    "character": "ති"
+  },
+  "95": {
+    "folder_name": "96",
+    "character": "තී"
+  },
+  "96": {
+    "folder_name": "97",
+    "character": "තු"
+  },
+  "97": {
+    "folder_name": "98",
+    "character": "තූ"
+  },
+  "98": {
+    "folder_name": "99",
+    "character": "ත්"
+  },
+  "99": {
+    "folder_name": "100",
+    "character": "තෝ"
+  },
+  "100": {
+    "folder_name": "101",
+    "character": "ත්‍ර"
+  },
+  "101": {
+    "folder_name": "102",
+    "character": "ත්‍රා"
+  },
+  "102": {
+    "folder_name": "103",
+    "character": "ත්‍රි"
+  },
+  "103": {
+    "folder_name": "104",
+    "character": "ත්‍රී"
+  },
+  "104": {
+    "folder_name": "105",
+    "character": "ද "
+  },
+  "105": {
+    "folder_name": "106",
+    "character": "දා"
+  },
+  "106": {
+    "folder_name": "107",
+    "character": "දැ"
+  },
+  "107": {
+    "folder_name": "108",
+    "character": "දෑ"
+  },
+  "108": {
+    "folder_name": "109",
+    "character": "දි"
+  },
+  "109": {
+    "folder_name": "110",
+    "character": "දී"
+  },
+  "110": {
+    "folder_name": "111",
+    "character": "දු"
+  },
+  "111": {
+    "folder_name": "112",
+    "character": "දූ"
+  },
+  "112": {
+    "folder_name": "113",
+    "character": "ද්"
+  },
+  "113": {
+    "folder_name": "114",
+    "character": "දෝ"
+  },
+  "114": {
+    "folder_name": "115",
+    "character": "ද්‍ර"
+  },
+  "115": {
+    "folder_name": "116",
+    "character": "ද්‍රෝ"
+  },
+  "116": {
+    "folder_name": "117",
+    "character": "ද්‍රා"
+  },
+  "117": {
+    "folder_name": "118",
+    "character": "ද්‍රි"
+  },
+  "118": {
+    "folder_name": "119",
+    "character": "ද්‍රී"
+  },
+  "119": {
+    "folder_name": "120",
+    "character": "න"
+  },
+  "120": {
+    "folder_name": "121",
+    "character": "නා"
+  },
+  "121": {
+    "folder_name": "122",
+    "character": "නැ"
+  },
+  "122": {
+    "folder_name": "123",
+    "character": "නෑ"
+  },
+  "123": {
+    "folder_name": "124",
+    "character": "නි"
+  },
+  "124": {
+    "folder_name": "125",
+    "character": "නී"
+  },
+  "125": {
+    "folder_name": "126",
+    "character": "නු"
+  },
+  "126": {
+    "folder_name": "127",
+    "character": "නූ"
+  },
+  "127": {
+    "folder_name": "128",
+    "character": "න්"
+  },
+  "128": {
+    "folder_name": "129",
+    "character": "නෝ"
+  },
+  "129": {
+    "folder_name": "130",
+    "character": "න්‍ර"
+  },
+  "130": {
+    "folder_name": "131",
+    "character": "න්‍රා"
+  },
+  "131": {
+    "folder_name": "132",
+    "character": "න්‍රි"
+  },
+  "132": {
+    "folder_name": "133",
+    "character": "න්‍රී"
+  },
+  "133": {
+    "folder_name": "134",
+    "character": "ප"
+  },
+  "134": {
+    "folder_name": "135",
+    "character": "පා"
+  },
+  "135": {
+    "folder_name": "136",
+    "character": "පැ"
+  },
+  "136": {
+    "folder_name": "137",
+    "character": "පෑ"
+  },
+  "137": {
+    "folder_name": "138",
+    "character": "පි"
+  },
+  "138": {
+    "folder_name": "139",
+    "character": "පී"
+  },
+  "139": {
+    "folder_name": "140",
+    "character": "පු"
+  },
+  "140": {
+    "folder_name": "141",
+    "character": "පූ"
+  },
+  "141": {
+    "folder_name": "142",
+    "character": "ප්"
+  },
+  "142": {
+    "folder_name": "143",
+    "character": "ප්‍රෝ"
+  },
+  "143": {
+    "folder_name": "144",
+    "character": "පෝ"
+  },
+  "144": {
+    "folder_name": "145",
+    "character": "ප්‍ර"
+  },
+  "145": {
+    "folder_name": "146",
+    "character": "ප්‍රා"
+  },
+  "146": {
+    "folder_name": "147",
+    "character": "ප්‍රි"
+  },
+  "147": {
+    "folder_name": "148",
+    "character": "ප්‍රී"
+  },
+  "148": {
+    "folder_name": "149",
+    "character": "බ"
+  },
+  "149": {
+    "folder_name": "150",
+    "character": "බා"
+  },
+  "150": {
+    "folder_name": "151",
+    "character": "බැ"
+  },
+  "151": {
+    "folder_name": "152",
+    "character": "බෑ"
+  },
+  "152": {
+    "folder_name": "153",
+    "character": "බි"
+  },
+  "153": {
+    "folder_name": "154",
+    "character": "බී"
+  },
+  "154": {
+    "folder_name": "155",
+    "character": "බු"
+  },
+  "155": {
+    "folder_name": "156",
+    "character": "බූ"
+  },
+  "156": {
+    "folder_name": "157",
+    "character": "බ්"
+  },
+  "157": {
+    "folder_name": "158",
+    "character": "බ්‍රෝ"
+  },
+  "158": {
+    "folder_name": "159",
+    "character": "බ්‍ර"
+  },
+  "159": {
+    "folder_name": "160",
+    "character": "බ්‍රා"
+  },
+  "160": {
+    "folder_name": "161",
+    "character": "බ්‍රි"
+  },
+  "161": {
+    "folder_name": "162",
+    "character": "බ්‍රී"
+  },
+  "162": {
+    "folder_name": "163",
+    "character": "බ්‍රෝ"
+  },
+  "163": {
+    "folder_name": "164",
+    "character": "ම"
+  },
+  "164": {
+    "folder_name": "165",
+    "character": "මා"
+  },
+  "165": {
+    "folder_name": "166",
+    "character": "මැ"
+  },
+  "166": {
+    "folder_name": "167",
+    "character": "මෑ"
+  },
+  "167": {
+    "folder_name": "168",
+    "character": "මි"
+  },
+  "168": {
+    "folder_name": "169",
+    "character": "මී"
+  },
+  "169": {
+    "folder_name": "170",
+    "character": "මු"
+  },
+  "170": {
+    "folder_name": "171",
+    "character": "මූ"
+  },
+  "171": {
+    "folder_name": "172",
+    "character": "ම්"
+  },
+  "172": {
+    "folder_name": "173",
+    "character": "මෝ"
+  },
+  "173": {
+    "folder_name": "174",
+    "character": "ම්‍ර"
+  },
+  "174": {
+    "folder_name": "175",
+    "character": "ම්‍රා"
+  },
+  "175": {
+    "folder_name": "176",
+    "character": "ම්‍රි"
+  },
+  "176": {
+    "folder_name": "177",
+    "character": "ම්‍රී"
+  },
+  "177": {
+    "folder_name": "178",
+    "character": "ම්‍රෝ"
+  },
+  "178": {
+    "folder_name": "179",
+    "character": "ය"
+  },
+  "179": {
+    "folder_name": "180",
+    "character": "යා"
+  },
+  "180": {
+    "folder_name": "181",
+    "character": "යැ"
+  },
+  "181": {
+    "folder_name": "182",
+    "character": "යෑ"
+  },
+  "182": {
+    "folder_name": "183",
+    "character": "යි"
+  },
+  "183": {
+    "folder_name": "184",
+    "character": "යී"
+  },
+  "184": {
+    "folder_name": "185",
+    "character": "යු"
+  },
+  "185": {
+    "folder_name": "186",
+    "character": "යූ"
+  },
+  "186": {
+    "folder_name": "187",
+    "character": "ෝ"
+  },
+  "187": {
+    "folder_name": "188",
+    "character": "ය්"
+  },
+  "188": {
+    "folder_name": "189",
+    "character": "hda"
+  },
+  "189": {
+    "folder_name": "190",
+    "character": "ර"
+  },
+  "190": {
+    "folder_name": "191",
+    "character": "රා"
+  },
+  "191": {
+    "folder_name": "192",
+    "character": "රැ"
+  },
+  "192": {
+    "folder_name": "193",
+    "character": "රැ"
+  },
+  "193": {
+    "folder_name": "194",
+    "character": "රු"
+  },
+  "194": {
+    "folder_name": "195",
+    "character": "රූ"
+  },
+  "195": {
+    "folder_name": "196",
+    "character": "රි"
+  },
+  "196": {
+    "folder_name": "197",
+    "character": "රී"
+  },
+  "197": {
+    "folder_name": "198",
+    "character": "ල"
+  },
+  "198": {
+    "folder_name": "199",
+    "character": "ලා"
+  },
+  "199": {
+    "folder_name": "200",
+    "character": "ලැ"
+  },
+  "200": {
+    "folder_name": "201",
+    "character": "ලෑ"
+  },
+  "201": {
+    "folder_name": "202",
+    "character": "ලි"
+  },
+  "202": {
+    "folder_name": "203",
+    "character": "ලී"
+  },
+  "203": {
+    "folder_name": "204",
+    "character": "ලු"
+  },
+  "204": {
+    "folder_name": "205",
+    "character": "ලූ"
+  },
+  "205": {
+    "folder_name": "206",
+    "character": "ල්"
+  },
+  "206": {
+    "folder_name": "207",
+    "character": ",da"
+  },
+  "207": {
+    "folder_name": "208",
+    "character": "ව"
+  },
+  "208": {
+    "folder_name": "209",
+    "character": "වා"
+  },
+  "209": {
+    "folder_name": "210",
+    "character": "වැ"
+  },
+  "210": {
+    "folder_name": "211",
+    "character": "වෑ"
+  },
+  "211": {
+    "folder_name": "212",
+    "character": "වි"
+  },
+  "212": {
+    "folder_name": "213",
+    "character": "වී"
+  },
+  "213": {
+    "folder_name": "214",
+    "character": "වු"
+  },
+  "214": {
+    "folder_name": "215",
+    "character": "වූ"
+  },
+  "215": {
+    "folder_name": "216",
+    "character": "ව්"
+  },
+  "216": {
+    "folder_name": "217",
+    "character": "jda"
+  },
+  "217": {
+    "folder_name": "218",
+    "character": "ව්‍ර"
+  },
+  "218": {
+    "folder_name": "219",
+    "character": "ව්‍රා"
+  },
+  "219": {
+    "folder_name": "220",
+    "character": "ව්‍රැ"
+  },
+  "220": {
+    "folder_name": "221",
+    "character": "ව්‍රෑ"
+  },
+  "221": {
+    "folder_name": "222",
+    "character": "j%da"
+  },
+  "222": {
+    "folder_name": "223",
+    "character": "ශ"
+  },
+  "223": {
+    "folder_name": "224",
+    "character": "ශා"
+  },
+  "224": {
+    "folder_name": "225",
+    "character": "ශැ"
+  },
+  "225": {
+    "folder_name": "226",
+    "character": "ශෑ"
+  },
+  "226": {
+    "folder_name": "227",
+    "character": "ශි"
+  },
+  "227": {
+    "folder_name": "228",
+    "character": "ශී"
+  },
+  "228": {
+    "folder_name": "229",
+    "character": "ශු"
+  },
+  "229": {
+    "folder_name": "230",
+    "character": "ශූ"
+  },
+  "230": {
+    "folder_name": "231",
+    "character": "ශ්"
+  },
+  "231": {
+    "folder_name": "232",
+    "character": "Yda"
+  },
+  "232": {
+    "folder_name": "233",
+    "character": "ශ්‍ර"
+  },
+  "233": {
+    "folder_name": "234",
+    "character": "ශ්‍රා"
+  },
+  "234": {
+    "folder_name": "235",
+    "character": "ශ්‍රැ"
+  },
+  "235": {
+    "folder_name": "236",
+    "character": "ශ්‍රෑ"
+  },
+  "236": {
+    "folder_name": "237",
+    "character": "ශ්‍රි"
+  },
+  "237": {
+    "folder_name": "238",
+    "character": "ශ්‍රී"
+  },
+  "238": {
+    "folder_name": "239",
+    "character": "Y%da"
+  },
+  "239": {
+    "folder_name": "240",
+    "character": "ෂ"
+  },
+  "240": {
+    "folder_name": "241",
+    "character": "ෂා"
+  },
+  "241": {
+    "folder_name": "242",
+    "character": "ෂැ"
+  },
+  "242": {
+    "folder_name": "243",
+    "character": "ෂෑ"
+  },
+  "243": {
+    "folder_name": "244",
+    "character": "ෂි"
+  },
+  "244": {
+    "folder_name": "245",
+    "character": "ෂී"
+  },
+  "245": {
+    "folder_name": "246",
+    "character": "ෂු"
+  },
+  "246": {
+    "folder_name": "247",
+    "character": "ෂූ"
+  },
+  "247": {
+    "folder_name": "248",
+    "character": "ෂ්"
+  },
+  "248": {
+    "folder_name": "249",
+    "character": "Ida"
+  },
+  "249": {
+    "folder_name": "250",
+    "character": "ස"
+  },
+  "250": {
+    "folder_name": "251",
+    "character": "සා"
+  },
+  "251": {
+    "folder_name": "252",
+    "character": "සැ"
+  },
+  "252": {
+    "folder_name": "253",
+    "character": "සෑ"
+  },
+  "253": {
+    "folder_name": "254",
+    "character": "සි"
+  },
+  "254": {
+    "folder_name": "255",
+    "character": "සී"
+  },
+  "255": {
+    "folder_name": "256",
+    "character": "සු"
+  },
+  "256": {
+    "folder_name": "257",
+    "character": "සූ"
+  },
+  "257": {
+    "folder_name": "258",
+    "character": "ida"
+  },
+  "258": {
+    "folder_name": "259",
+    "character": "ස්‍ර"
+  },
+  "259": {
+    "folder_name": "260",
+    "character": "ස්‍රා"
+  },
+  "260": {
+    "folder_name": "261",
+    "character": "ස්‍රි"
+  },
+  "261": {
+    "folder_name": "262",
+    "character": "ස්‍රී"
+  },
+  "262": {
+    "folder_name": "263",
+    "character": "ස්"
+  },
+  "263": {
+    "folder_name": "264",
+    "character": "හ"
+  },
+  "264": {
+    "folder_name": "265",
+    "character": "හා"
+  },
+  "265": {
+    "folder_name": "266",
+    "character": "හැ"
+  },
+  "266": {
+    "folder_name": "267",
+    "character": "හෑ"
+  },
+  "267": {
+    "folder_name": "268",
+    "character": "හි"
+  },
+  "268": {
+    "folder_name": "269",
+    "character": "හී"
+  },
+  "269": {
+    "folder_name": "270",
+    "character": "හු"
+  },
+  "270": {
+    "folder_name": "271",
+    "character": "හූ"
+  },
+  "271": {
+    "folder_name": "272",
+    "character": "හ්"
+  },
+  "272": {
+    "folder_name": "273",
+    "character": "yda"
+  },
+  "273": {
+    "folder_name": "274",
+    "character": "ළ"
+  },
+  "274": {
+    "folder_name": "275",
+    "character": "ළා"
+  },
+  "275": {
+    "folder_name": "276",
+    "character": "ළැ"
+  },
+  "276": {
+    "folder_name": "277",
+    "character": "ළෑ"
+  },
+  "277": {
+    "folder_name": "278",
+    "character": "ළි"
+  },
+  "278": {
+    "folder_name": "279",
+    "character": "ළී"
+  },
+  "279": {
+    "folder_name": "280",
+    "character": "ළූ"
+  },
+  "280": {
+    "folder_name": "281",
+    "character": "ළූ"
+  },
+  "281": {
+    "folder_name": "282",
+    "character": "ෆ"
+  },
+  "282": {
+    "folder_name": "283",
+    "character": "ෆා"
+  },
+  "283": {
+    "folder_name": "284",
+    "character": "ෆැ"
+  },
+  "284": {
+    "folder_name": "285",
+    "character": "ෆෑ"
+  },
+  "285": {
+    "folder_name": "286",
+    "character": "ෆි"
+  },
+  "286": {
+    "folder_name": "287",
+    "character": "ෆී"
+  },
+  "287": {
+    "folder_name": "288",
+    "character": "ෆූ"
+  },
+  "288": {
+    "folder_name": "289",
+    "character": "ෆූ"
+  },
+  "289": {
+    "folder_name": "290",
+    "character": "ෆ්‍ර"
+  },
+  "290": {
+    "folder_name": "291",
+    "character": "ෆ්‍රි"
+  },
+  "291": {
+    "folder_name": "292",
+    "character": "ෆ්‍රී"
+  },
+  "292": {
+    "folder_name": "293",
+    "character": "ෆ්‍රැ"
+  },
+  "293": {
+    "folder_name": "294",
+    "character": "ෆ්‍රෑ"
+  },
+  "294": {
+    "folder_name": "295",
+    "character": "ෆ්"
+  },
+  "295": {
+    "folder_name": "296",
+    "character": "*da"
+  },
+  "296": {
+    "folder_name": "297",
+    "character": "ක්‍රා"
+  },
+  "297": {
+    "folder_name": "298",
+    "character": "ක්‍රැ"
+  },
+  "298": {
+    "folder_name": "299",
+    "character": "ක්‍රෑ"
+  },
+  "299": {
+    "folder_name": "300",
+    "character": "l%da"
+  },
+  "300": {
+    "folder_name": "301",
+    "character": ".%da"
+  },
+  "301": {
+    "folder_name": "302",
+    "character": "ඛ"
+  },
+  "302": {
+    "folder_name": "303",
+    "character": "ඛා"
+  },
+  "303": {
+    "folder_name": "304",
+    "character": "ඛි"
+  },
+  "304": {
+    "folder_name": "305",
+    "character": "ඛී"
+  },
+  "305": {
+    "folder_name": "306",
+    "character": "ඛ්"
+  },
+  "306": {
+    "folder_name": "307",
+    "character": "ඝ"
+  },
+  "307": {
+    "folder_name": "308",
+    "character": "ඝා"
+  },
+  "308": {
+    "folder_name": "309",
+    "character": "ඝැ"
+  },
+  "309": {
+    "folder_name": "310",
+    "character": "ඝෑ"
+  },
+  "310": {
+    "folder_name": "311",
+    "character": "ඝි"
+  },
+  "311": {
+    "folder_name": "312",
+    "character": "ඝී"
+  },
+  "312": {
+    "folder_name": "313",
+    "character": "ඝු"
+  },
+  "313": {
+    "folder_name": "314",
+    "character": "ඝූ"
+  },
+  "314": {
+    "folder_name": "315",
+    "character": ">da"
+  },
+  "315": {
+    "folder_name": "316",
+    "character": "ඝ්"
+  },
+  "316": {
+    "folder_name": "317",
+    "character": "ඝ්‍ර"
+  },
+  "317": {
+    "folder_name": "318",
+    "character": "ඝ්‍රා"
+  },
+  "318": {
+    "folder_name": "319",
+    "character": "ඝ්‍රි"
+  },
+  "319": {
+    "folder_name": "320",
+    "character": "ඝ්‍රී"
+  },
+  "320": {
+    "folder_name": "321",
+    "character": "ඳ"
+  },
+  "321": {
+    "folder_name": "322",
+    "character": "ඳා"
+  },
+  "322": {
+    "folder_name": "323",
+    "character": "ඳැ"
+  },
+  "323": {
+    "folder_name": "324",
+    "character": "ෑ"
+  },
+  "324": {
+    "folder_name": "325",
+    "character": "ඳෑ"
+  },
+  "325": {
+    "folder_name": "326",
+    "character": "ඳි"
+  },
+  "326": {
+    "folder_name": "327",
+    "character": "ඳී"
+  },
+  "327": {
+    "folder_name": "328",
+    "character": "ඳු"
+  },
+  "328": {
+    "folder_name": "329",
+    "character": "ඳූ"
+  },
+  "329": {
+    "folder_name": "330",
+    "character": "|da "
+  },
+  "330": {
+    "folder_name": "331",
+    "character": " ඳ්"
+  },
+  "331": {
+    "folder_name": "332",
+    "character": "ඟ"
+  },
+  "332": {
+    "folder_name": "333",
+    "character": "ඟා"
+  },
+  "333": {
+    "folder_name": "334",
+    "character": "ඟැ"
+  },
+  "334": {
+    "folder_name": "335",
+    "character": " ඟෑ"
+  },
+  "335": {
+    "folder_name": "336",
+    "character": " ඟි"
+  },
+  "336": {
+    "folder_name": "337",
+    "character": "ඟී"
+  },
+  "337": {
+    "folder_name": "338",
+    "character": " ඟු"
+  },
+  "338": {
+    "folder_name": "339",
+    "character": " ඟූ"
+  },
+  "339": {
+    "folder_name": "340",
+    "character": "Õda"
+  },
+  "340": {
+    "folder_name": "341",
+    "character": "ඟ්"
+  },
+  "341": {
+    "folder_name": "342",
+    "character": "ඬ"
+  },
+  "342": {
+    "folder_name": "343",
+    "character": "ැ"
+  },
+  "343": {
+    "folder_name": "344",
+    "character": "ඬා"
+  },
+  "344": {
+    "folder_name": "345",
+    "character": " ඬැ"
+  },
+  "345": {
+    "folder_name": "346",
+    "character": "ඬෑ"
+  },
+  "346": {
+    "folder_name": "347",
+    "character": " ඬි"
+  },
+  "347": {
+    "folder_name": "348",
+    "character": "ඬී"
+  },
+  "348": {
+    "folder_name": "349",
+    "character": " ඬු"
+  },
+  "349": {
+    "folder_name": "350",
+    "character": "ඬූ"
+  },
+  "350": {
+    "folder_name": "351",
+    "character": "ඬda "
+  },
+  "351": {
+    "folder_name": "352",
+    "character": " ඬ්"
+  },
+  "352": {
+    "folder_name": "353",
+    "character": "ඹ"
+  },
+  "353": {
+    "folder_name": "354",
+    "character": "ඹා"
+  },
+  "354": {
+    "folder_name": "355",
+    "character": " ඹැ"
+  },
+  "355": {
+    "folder_name": "356",
+    "character": " ඹෑ"
+  },
+  "356": {
+    "folder_name": "357",
+    "character": " ඹි"
+  },
+  "357": {
+    "folder_name": "358",
+    "character": "ඹී"
+  },
+  "358": {
+    "folder_name": "359",
+    "character": " ඹු"
+  },
+  "359": {
+    "folder_name": "360",
+    "character": "ඹූ"
+  },
+  "360": {
+    "folder_name": "361",
+    "character": "Uda"
+  },
+  "361": {
+    "folder_name": "362",
+    "character": "ඹ්"
+  },
+  "362": {
+    "folder_name": "363",
+    "character": "භ"
+  },
+  "363": {
+    "folder_name": "364",
+    "character": "භා"
+  },
+  "364": {
+    "folder_name": "365",
+    "character": "භැ"
+  },
+  "365": {
+    "folder_name": "366",
+    "character": "භෑ"
+  },
+  "366": {
+    "folder_name": "367",
+    "character": "භි"
+  },
+  "367": {
+    "folder_name": "368",
+    "character": "භී"
+  },
+  "368": {
+    "folder_name": "369",
+    "character": "භු"
+  },
+  "369": {
+    "folder_name": "370",
+    "character": "භූ"
+  },
+  "370": {
+    "folder_name": "371",
+    "character": "Nda"
+  },
+  "371": {
+    "folder_name": "372",
+    "character": "භ්"
+  },
+  "372": {
+    "folder_name": "373",
+    "character": "ධ"
+  },
+  "373": {
+    "folder_name": "374",
+    "character": "ධා"
+  },
+  "374": {
+    "folder_name": "375",
+    "character": "ධැ"
+  },
+  "375": {
+    "folder_name": "376",
+    "character": "ධෑ"
+  },
+  "376": {
+    "folder_name": "377",
+    "character": ",ධි"
+  },
+  "377": {
+    "folder_name": "378",
+    "character": ",ධී"
+  },
+  "378": {
+    "folder_name": "379",
+    "character": ",ධු"
+  },
+  "379": {
+    "folder_name": "380",
+    "character": ",ධූ"
+  },
+  "380": {
+    "folder_name": "381",
+    "character": "ධෝ"
+  },
+  "381": {
+    "folder_name": "382",
+    "character": "ධ්"
+  },
+  "382": {
+    "folder_name": "383",
+    "character": "ඨ"
+  },
+  "383": {
+    "folder_name": "384",
+    "character": "ඨා"
+  },
+  "384": {
+    "folder_name": "385",
+    "character": "ඨැ"
+  },
+  "385": {
+    "folder_name": "386",
+    "character": "ඨි"
+  },
+  "386": {
+    "folder_name": "387",
+    "character": "ඨී"
+  },
+  "387": {
+    "folder_name": "388",
+    "character": "ඨු"
+  },
+  "388": {
+    "folder_name": "389",
+    "character": "ඨූ"
+  },
+  "389": {
+    "folder_name": "390",
+    "character": "ඨ්"
+  },
+  "390": {
+    "folder_name": "391",
+    "character": "ඪ"
+  },
+  "391": {
+    "folder_name": "392",
+    "character": "ඪා"
+  },
+  "392": {
+    "folder_name": "393",
+    "character": "ඪි"
+  },
+  "393": {
+    "folder_name": "394",
+    "character": "Vda"
+  },
+  "394": {
+    "folder_name": "395",
+    "character": "ඵ"
+  },
+  "395": {
+    "folder_name": "396",
+    "character": "ඵා"
+  },
+  "396": {
+    "folder_name": "397",
+    "character": "ඵු"
+  },
+  "397": {
+    "folder_name": "398",
+    "character": "ඵි"
+  },
+  "398": {
+    "folder_name": "399",
+    "character": "Mda"
+  },
+  "399": {
+    "folder_name": "400",
+    "character": "ඵ් "
+  },
+  "400": {
+    "folder_name": "401",
+    "character": "ථ"
+  },
+  "401": {
+    "folder_name": "402",
+    "character": "ථා"
+  },
+  "402": {
+    "folder_name": "403",
+    "character": "ථැ"
+  },
+  "403": {
+    "folder_name": "404",
+    "character": "ථ්"
+  },
+  "404": {
+    "folder_name": "405",
+    "character": "ා"
+  },
+  "405": {
+    "folder_name": "406",
+    "character": "ෟ"
+  },
+  "406": {
+    "folder_name": "407",
+    "character": "ණැ"
+  },
+  "407": {
+    "folder_name": "408",
+    "character": "ණෑ"
+  },
+  "408": {
+    "folder_name": "409",
+    "character": "ෘ"
+  },
+  "409": {
+    "folder_name": "410",
+    "character": "ණී"
+  },
+  "410": {
+    "folder_name": "411",
+    "character": "ණු"
+  },
+  "411": {
+    "folder_name": "412",
+    "character": "ණූ"
+  },
+  "412": {
+    "folder_name": "413",
+    "character": "Kda"
+  },
+  "413": {
+    "folder_name": "414",
+    "character": "ණ්"
+  },
+  "414": {
+    "folder_name": "415",
+    "character": "ඥ"
+  },
+  "415": {
+    "folder_name": "416",
+    "character": "ඥා"
+  },
+  "416": {
+    "folder_name": "417",
+    "character": "{da"
+  },
+  "417": {
+    "folder_name": "418",
+    "character": "ඤ"
+  },
+  "418": {
+    "folder_name": "419",
+    "character": "ඤා"
+  },
+  "419": {
+    "folder_name": "420",
+    "character": "ඤු"
+  },
+  "420": {
+    "folder_name": "421",
+    "character": "[da"
+  },
+  "421": {
+    "folder_name": "422",
+    "character": "ඤ්"
+  },
+  "422": {
+    "folder_name": "423",
+    "character": "ඣ"
+  },
+  "423": {
+    "folder_name": "424",
+    "character": "ඣා"
+  },
+  "424": {
+    "folder_name": "425",
+    "character": "ඣු"
+  },
+  "425": {
+    "folder_name": "426",
+    "character": "COda"
+  },
+  "426": {
+    "folder_name": "427",
+    "character": "ඣ්"
+  },
+  "427": {
+    "folder_name": "428",
+    "character": "ඦ"
+  },
+  "428": {
+    "folder_name": "429",
+    "character": "ඦා"
+  },
+  "429": {
+    "folder_name": "430",
+    "character": "ඦැ"
+  },
+  "430": {
+    "folder_name": "431",
+    "character": "ඦෑ"
+  },
+  "431": {
+    "folder_name": "432",
+    "character": "ඦි"
+  },
+  "432": {
+    "folder_name": "433",
+    "character": "ඦු"
+  },
+  "433": {
+    "folder_name": "434",
+    "character": "ඦූ"
+  },
+  "434": {
+    "folder_name": "435",
+    "character": "ඦෝ"
+  },
+  "435": {
+    "folder_name": "436",
+    "character": "ඦ්"
+  },
+  "436": {
+    "folder_name": "437",
+    "character": "ඡ"
+  },
+  "437": {
+    "folder_name": "438",
+    "character": "ඡා"
+  },
+  "438": {
+    "folder_name": "439",
+    "character": "ඡැ"
+  },
+  "439": {
+    "folder_name": "440",
+    "character": "ඡෑ"
+  },
+  "440": {
+    "folder_name": "441",
+    "character": "ඡි"
+  },
+  "441": {
+    "folder_name": "442",
+    "character": "ඡේ"
+  },
+  "442": {
+    "folder_name": "443",
+    "character": "තැ"
+  },
+  "443": {
+    "folder_name": "444",
+    "character": "තෑ"
+  },
+  "444": {
+    "folder_name": "445",
+    "character": "ත්‍රැ"
+  },
+  "445": {
+    "folder_name": "446",
+    "character": "ත්‍රෑ"
+  },
+  "446": {
+    "folder_name": "447",
+    "character": ";%da"
+  },
+  "447": {
+    "folder_name": "448",
+    "character": "ළු"
+  },
+  "448": {
+    "folder_name": "449",
+    "character": "ෲ"
+  },
+  "449": {
+    "folder_name": "450",
+    "character": "HQ"
+  },
+  "450": {
+    "folder_name": "451",
+    "character": "ff"
+  },
+  "451": {
+    "folder_name": "452",
+    "character": "f"
+  },
+  "452": {
+    "folder_name": "453",
+    "character": "H"
+  },
+  "453": {
+    "folder_name": "454",
+    "character": "Hq"
+  }
+}

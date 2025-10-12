@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinhala Character Recognition - Tablet Input</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+
+        .header p {
+            margin: 10px 0 0 0;
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+
+        .main-content {
+            display: flex;
+            gap: 30px;
+            padding: 30px;
+        }
+
+        .drawing-panel {
+            flex: 2;
+        }
+
+        .results-panel {
+            flex: 1;
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 25px;
+        }
+
+        .canvas-container {
+            background: white;
+            border: 3px solid #e9ecef;
+            border-radius: 15px;
+            box-shadow: inset 0 2px 10px rgba(0,0,0,0.05);
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        #drawingCanvas {
+            border-radius: 15px;
+            cursor: crosshair;
+            display: block;
+        }
+
+        .canvas-info {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.8em;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+
+        .btn-danger {
+            background: #dc3545;
+            color: white;
+        }
+
+        .btn-success {
+            background: #28a745;
+            color: white;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .slider-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .slider-group label {
+            font-weight: 600;
+            color: #495057;
+        }
+
+        .slider {
+            width: 100px;
+        }
+
+        .predictions {
+            margin-top: 20px;
+        }
+
+        .predictions h3 {
+            color: #495057;
+            margin-bottom: 20px;
+            font-size: 1.3em;
+        }
+
+        .prediction-item {
+            background: white;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: transform 0.2s ease;
+        }
+
+        .prediction-item:hover {
+            transform: translateX(5px);
+        }
+
+        .prediction-char {
+            font-size: 2em;
+            font-weight: bold;
+            color: #4facfe;
+        }
+
+        .prediction-info {
+            text-align: right;
+        }
+
+        .prediction-confidence {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #28a745;
+        }
+
+        .prediction-name {
+            font-size: 0.9em;
+            color: #6c757d;
+            margin-top: 2px;
+        }
+
+        .status {
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .status.loading {
+            background: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeaa7;
+        }
+
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .pressure-info {
+            background: rgba(0,0,0,0.05);
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+
+        .model-info {
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+
+        .model-info h4 {
+            margin: 0 0 10px 0;
+            color: #495057;
+        }
+
+        .model-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            font-size: 0.9em;
+        }
+
+        .stat-item {
+            background: rgba(255,255,255,0.7);
+            padding: 8px;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+            }
+
+            .controls {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎨 Sinhala Character Recognition</h1>
+            <p>Draw Sinhala characters using your graphic tablet or mouse</p>
+        </div>
+
+        <div class="main-content">
+            <div class="drawing-panel">
+                <div class="model-info">
+                    <h4>🤖 AI Model Information</h4>
+                    <div class="model-stats">
+                        <div class="stat-item"><strong>Classes:</strong> 454 characters</div>
+                        <div class="stat-item"><strong>Accuracy:</strong> 90.48%</div>
+                        <div class="stat-item"><strong>Top-3 Acc:</strong> 96.57%</div>
+                        <div class="stat-item"><strong>F1-Score:</strong> 90.46%</div>
+                    </div>
+                </div>
+
+                <div class="canvas-container">
+                    <canvas id="drawingCanvas" width="500" height="500"></canvas>
+                    <div class="canvas-info">
+                        <div>Canvas: 500×500 | Model Input: 80×80</div>
+                        <div id="pressureInfo">Pressure: Detecting...</div>
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <button class="btn btn-success" id="recognizeBtn">🔍 Recognize Character</button>
+                    <button class="btn btn-danger" id="clearBtn">🗑️ Clear Canvas</button>
+                    <button class="btn btn-secondary" id="undoBtn">↶ Undo</button>
+
+                    <div class="slider-group">
+                        <label for="brushSize">Brush Size:</label>
+                        <input type="range" id="brushSize" class="slider" min="1" max="20" value="8">
+                        <span id="brushSizeValue">8px</span>
+                    </div>
+
+                    <div class="slider-group">
+                        <label for="brushOpacity">Opacity:</label>
+                        <input type="range" id="brushOpacity" class="slider" min="0.1" max="1" step="0.1" value="1">
+                        <span id="opacityValue">100%</span>
+                    </div>
+                </div>
+
+                <div class="pressure-info">
+                    <strong>📝 Drawing Tips:</strong>
+                    <ul style="margin: 5px 0; padding-left: 20px;">
+                        <li>Use natural drawing pressure with your tablet</li>
+                        <li>Draw characters clearly in the center of the canvas</li>
+                        <li>Single characters work best - avoid multiple characters</li>
+                        <li>The model recognizes 454 different Sinhala characters</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="results-panel">
+                <div id="statusMessage" class="status" style="display: none;"></div>
+
+                <div class="predictions">
+                    <h3>🎯 Recognition Results</h3>
+                    <div id="predictionsList">
+                        <div style="text-align: center; color: #6c757d; padding: 40px;">
+                            <div style="font-size: 3em; margin-bottom: 10px;">✏️</div>
+                            <p>Draw a Sinhala character and click "Recognize Character" to see predictions</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 30px; padding-top: 20px; border-top: 2px solid #e9ecef;">
+                    <h4 style="color: #495057;">📊 Session Statistics</h4>
+                    <div class="model-stats">
+                        <div class="stat-item">
+                            <strong>Predictions:</strong>
+                            <span id="predictionCount">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <strong>Avg. Confidence:</strong>
+                            <span id="avgConfidence">-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Canvas and drawing setup
+        const canvas = document.getElementById('drawingCanvas');
+        const ctx = canvas.getContext('2d');
+        const recognizeBtn = document.getElementById('recognizeBtn');
+        const clearBtn = document.getElementById('clearBtn');
+        const undoBtn = document.getElementById('undoBtn');
+        const statusMessage = document.getElementById('statusMessage');
+        const predictionsList = document.getElementById('predictionsList');
+
+        // Drawing state
+        let isDrawing = false;
+        let lastX = 0;
+        let lastY = 0;
+        let paths = [];
+        let currentPath = [];
+
+        // Statistics
+        let predictionCount = 0;
+        let totalConfidence = 0;
+
+        // Slider controls
+        const brushSizeSlider = document.getElementById('brushSize');
+        const brushSizeValue = document.getElementById('brushSizeValue');
+        const brushOpacitySlider = document.getElementById('brushOpacity');
+        const opacityValue = document.getElementById('opacityValue');
+
+        // Update slider displays
+        brushSizeSlider.addEventListener('input', function() {
+            brushSizeValue.textContent = this.value + 'px';
+        });
+
+        brushOpacitySlider.addEventListener('input', function() {
+            opacityValue.textContent = Math.round(this.value * 100) + '%';
+        });
+
+        // Canvas setup
+        function setupCanvas() {
+            ctx.lineCap = 'round';
+            ctx.lineJoin = 'round';
+            clearCanvas();
+        }
+
+        // Clear canvas
+        function clearCanvas() {
+            ctx.fillStyle = 'white';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            paths = [];
+            currentPath = [];
+        }
+
+        // Drawing functions
+        function startDrawing(e) {
+            isDrawing = true;
+            const rect = canvas.getBoundingClientRect();
+            lastX = e.clientX - rect.left;
+            lastY = e.clientY - rect.top;
+
+            currentPath = [];
+            currentPath.push({x: lastX, y: lastY, pressure: e.pressure || 0.5});
+        }
+
+        function draw(e) {
+            if (!isDrawing) return;
+
+            const rect = canvas.getBoundingClientRect();
+            const currentX = e.clientX - rect.left;
+            const currentY = e.clientY - rect.top;
+            const pressure = e.pressure || 0.5;
+
+            // Update pressure info
+            document.getElementById('pressureInfo').textContent =
+                `Pressure: ${(pressure * 100).toFixed(1)}%`;
+
+            // Set drawing style based on pressure and controls
+            ctx.globalAlpha = parseFloat(brushOpacitySlider.value);
+            ctx.strokeStyle = '#000000';
+            ctx.lineWidth = parseFloat(brushSizeSlider.value) * (0.5 + pressure * 0.5);
+
+            ctx.beginPath();
+            ctx.moveTo(lastX, lastY);
+            ctx.lineTo(currentX, currentY);
+            ctx.stroke();
+
+            currentPath.push({x: currentX, y: currentY, pressure: pressure});
+
+            lastX = currentX;
+            lastY = currentY;
+        }
+
+        function stopDrawing() {
+            if (isDrawing) {
+                paths.push([...currentPath]);
+                currentPath = [];
+            }
+            isDrawing = false;
+        }
+
+        // Event listeners for drawing
+        canvas.addEventListener('mousedown', startDrawing);
+        canvas.addEventListener('mousemove', draw);
+        canvas.addEventListener('mouseup', stopDrawing);
+        canvas.addEventListener('mouseout', stopDrawing);
+
+        // Touch events for tablets
+        canvas.addEventListener('touchstart', function(e) {
+            e.preventDefault();
+            const touch = e.touches[0];
+            const mouseEvent = new MouseEvent('mousedown', {
+                clientX: touch.clientX,
+                clientY: touch.clientY
+            });
+            canvas.dispatchEvent(mouseEvent);
+        });
+
+        canvas.addEventListener('touchmove', function(e) {
+            e.preventDefault();
+            const touch = e.touches[0];
+            const mouseEvent = new MouseEvent('mousemove', {
+                clientX: touch.clientX,
+                clientY: touch.clientY
+            });
+            canvas.dispatchEvent(mouseEvent);
+        });
+
+        canvas.addEventListener('touchend', function(e) {
+            e.preventDefault();
+            const mouseEvent = new MouseEvent('mouseup', {});
+            canvas.dispatchEvent(mouseEvent);
+        });
+
+        // Undo function
+        function undoLastStroke() {
+            if (paths.length > 0) {
+                paths.pop();
+                redrawCanvas();
+            }
+        }
+
+        function redrawCanvas() {
+            clearCanvas();
+
+            for (const path of paths) {
+                if (path.length > 0) {
+                    ctx.beginPath();
+                    ctx.moveTo(path[0].x, path[0].y);
+
+                    for (let i = 1; i < path.length; i++) {
+                        const point = path[i];
+                        ctx.lineWidth = parseFloat(brushSizeSlider.value) * (0.5 + point.pressure * 0.5);
+                        ctx.lineTo(point.x, point.y);
+                        ctx.stroke();
+                        ctx.beginPath();
+                        ctx.moveTo(point.x, point.y);
+                    }
+                }
+            }
+        }
+
+        // Show status message
+        function showStatus(message, type) {
+            statusMessage.textContent = message;
+            statusMessage.className = `status ${type}`;
+            statusMessage.style.display = 'block';
+
+            if (type === 'success') {
+                setTimeout(() => {
+                    statusMessage.style.display = 'none';
+                }, 3000);
+            }
+        }
+
+        // Recognition function
+        function recognizeCharacter() {
+            const imageData = canvas.toDataURL('image/png');
+
+            showStatus('🔍 Recognizing character...', 'loading');
+            recognizeBtn.disabled = true;
+
+            // Real API call to the Flask backend
+            fetch('/api/recognize', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    image: imageData,
+                    top_k: 5
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success && data.predictions) {
+                    displayPredictions(data.predictions);
+                    updateStatistics(data.predictions);
+                    showStatus('✅ Character recognized successfully!', 'success');
+                } else {
+                    displayPredictions([]);
+                    showStatus('❌ Recognition failed: ' + (data.message || 'Unknown error'), 'error');
+                }
+                recognizeBtn.disabled = false;
+            })
+            .catch(error => {
+                console.error('Recognition error:', error);
+                displayPredictions([]);
+                showStatus('❌ Connection error: Could not reach AI model', 'error');
+                recognizeBtn.disabled = false;
+            });
+        }
+
+        // Display predictions
+        function displayPredictions(predictions) {
+            if (predictions.length === 0) {
+                predictionsList.innerHTML = `
+                    <div style="text-align: center; color: #dc3545; padding: 20px;">
+                        <div style="font-size: 2em; margin-bottom: 10px;">❌</div>
+                        <p>No confident predictions found. Try drawing the character more clearly.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            let html = '';
+            predictions.forEach((pred, index) => {
+                html += `
+                    <div class="prediction-item">
+                        <div class="prediction-char">${pred.character}</div>
+                        <div class="prediction-info">
+                            <div class="prediction-confidence">${pred.confidence_percent.toFixed(1)}%</div>
+                            <div class="prediction-name">${pred.class_name}</div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            predictionsList.innerHTML = html;
+        }
+
+        // Update session statistics
+        function updateStatistics(predictions) {
+            if (predictions.length > 0) {
+                predictionCount++;
+                totalConfidence += predictions[0].confidence_percent;
+
+                document.getElementById('predictionCount').textContent = predictionCount;
+                document.getElementById('avgConfidence').textContent =
+                    (totalConfidence / predictionCount).toFixed(1) + '%';
+            }
+        }
+
+        // Event listeners
+        clearBtn.addEventListener('click', clearCanvas);
+        undoBtn.addEventListener('click', undoLastStroke);
+        recognizeBtn.addEventListener('click', recognizeCharacter);
+
+        // Initialize canvas
+        setupCanvas();
+
+        // Note: In a real implementation, you would:
+        // 1. Send the canvas image to your Python backend
+        // 2. Use the character_recognizer.py to get actual predictions
+        // 3. Return the results to display here
+        console.log('🎨 Sinhala Character Recognition Interface Loaded');
+        console.log('📝 Ready for graphic tablet input');
+    </script>
+</body>
+</html>

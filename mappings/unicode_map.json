@@ -1,0 +1,3180 @@
+{
+  "1": {
+    "unicode": "අ",
+    "class_id": 1,
+    "index": 0,
+    "display_name": "අ",
+    "category": "sinhala_character"
+  },
+  "2": {
+    "unicode": "ආ",
+    "class_id": 2,
+    "index": 1,
+    "display_name": "ආ",
+    "category": "sinhala_character"
+  },
+  "3": {
+    "unicode": "ඇ",
+    "class_id": 3,
+    "index": 2,
+    "display_name": "ඇ",
+    "category": "sinhala_character"
+  },
+  "4": {
+    "unicode": "ඈ",
+    "class_id": 4,
+    "index": 3,
+    "display_name": "ඈ",
+    "category": "sinhala_character"
+  },
+  "5": {
+    "unicode": "ඉ",
+    "class_id": 5,
+    "index": 4,
+    "display_name": "ඉ",
+    "category": "sinhala_character"
+  },
+  "6": {
+    "unicode": "ඊ",
+    "class_id": 6,
+    "index": 5,
+    "display_name": "ඊ",
+    "category": "sinhala_character"
+  },
+  "7": {
+    "unicode": "උ",
+    "class_id": 7,
+    "index": 6,
+    "display_name": "උ",
+    "category": "sinhala_character"
+  },
+  "8": {
+    "unicode": "එ",
+    "class_id": 8,
+    "index": 7,
+    "display_name": "එ",
+    "category": "sinhala_character"
+  },
+  "9": {
+    "unicode": "ඒ",
+    "class_id": 9,
+    "index": 8,
+    "display_name": "ඒ",
+    "category": "sinhala_character"
+  },
+  "10": {
+    "unicode": "ඔ",
+    "class_id": 10,
+    "index": 9,
+    "display_name": "ඔ",
+    "category": "sinhala_character"
+  },
+  "11": {
+    "unicode": "ඕ",
+    "class_id": 11,
+    "index": 10,
+    "display_name": "ඕ",
+    "category": "sinhala_character"
+  },
+  "12": {
+    "unicode": "ක",
+    "class_id": 12,
+    "index": 11,
+    "display_name": "ක",
+    "category": "sinhala_character"
+  },
+  "13": {
+    "unicode": "කා",
+    "class_id": 13,
+    "index": 12,
+    "display_name": "කා",
+    "category": "sinhala_character"
+  },
+  "14": {
+    "unicode": "කැ",
+    "class_id": 14,
+    "index": 13,
+    "display_name": "කැ",
+    "category": "sinhala_character"
+  },
+  "15": {
+    "unicode": "කෑ",
+    "class_id": 15,
+    "index": 14,
+    "display_name": "කෑ",
+    "category": "sinhala_character"
+  },
+  "16": {
+    "unicode": "කි",
+    "class_id": 16,
+    "index": 15,
+    "display_name": "කි",
+    "category": "sinhala_character"
+  },
+  "17": {
+    "unicode": "කී",
+    "class_id": 17,
+    "index": 16,
+    "display_name": "කී",
+    "category": "sinhala_character"
+  },
+  "18": {
+    "unicode": "කු",
+    "class_id": 18,
+    "index": 17,
+    "display_name": "කු",
+    "category": "sinhala_character"
+  },
+  "19": {
+    "unicode": "කූ",
+    "class_id": 19,
+    "index": 18,
+    "display_name": "කූ",
+    "category": "sinhala_character"
+  },
+  "20": {
+    "unicode": "ක්",
+    "class_id": 20,
+    "index": 19,
+    "display_name": "ක්",
+    "category": "sinhala_character"
+  },
+  "21": {
+    "unicode": "කෝ",
+    "class_id": 21,
+    "index": 20,
+    "display_name": "කෝ",
+    "category": "sinhala_character"
+  },
+  "22": {
+    "unicode": "ක්‍ර",
+    "class_id": 22,
+    "index": 21,
+    "display_name": "ක්‍ර",
+    "category": "sinhala_character"
+  },
+  "23": {
+    "unicode": "ක්‍රි",
+    "class_id": 23,
+    "index": 22,
+    "display_name": "ක්‍රි",
+    "category": "sinhala_character"
+  },
+  "24": {
+    "unicode": "ක්‍රී",
+    "class_id": 24,
+    "index": 23,
+    "display_name": "ක්‍රී",
+    "category": "sinhala_character"
+  },
+  "25": {
+    "unicode": "ග",
+    "class_id": 25,
+    "index": 24,
+    "display_name": "ග",
+    "category": "sinhala_character"
+  },
+  "26": {
+    "unicode": "ගා",
+    "class_id": 26,
+    "index": 25,
+    "display_name": "ගා",
+    "category": "sinhala_character"
+  },
+  "27": {
+    "unicode": "ගැ",
+    "class_id": 27,
+    "index": 26,
+    "display_name": "ගැ",
+    "category": "sinhala_character"
+  },
+  "28": {
+    "unicode": "ගෑ",
+    "class_id": 28,
+    "index": 27,
+    "display_name": "ගෑ",
+    "category": "sinhala_character"
+  },
+  "29": {
+    "unicode": "ගි",
+    "class_id": 29,
+    "index": 28,
+    "display_name": "ගි",
+    "category": "sinhala_character"
+  },
+  "30": {
+    "unicode": "ගී",
+    "class_id": 30,
+    "index": 29,
+    "display_name": "ගී",
+    "category": "sinhala_character"
+  },
+  "31": {
+    "unicode": "ගු",
+    "class_id": 31,
+    "index": 30,
+    "display_name": "ගු",
+    "category": "sinhala_character"
+  },
+  "32": {
+    "unicode": "ගූ",
+    "class_id": 32,
+    "index": 31,
+    "display_name": "ගූ",
+    "category": "sinhala_character"
+  },
+  "33": {
+    "unicode": "ග්",
+    "class_id": 33,
+    "index": 32,
+    "display_name": "ග්",
+    "category": "sinhala_character"
+  },
+  "34": {
+    "unicode": "ගෝ",
+    "class_id": 34,
+    "index": 33,
+    "display_name": "ගෝ",
+    "category": "sinhala_character"
+  },
+  "35": {
+    "unicode": "ග්‍ර",
+    "class_id": 35,
+    "index": 34,
+    "display_name": "ග්‍ර",
+    "category": "sinhala_character"
+  },
+  "36": {
+    "unicode": "ග්‍රි",
+    "class_id": 36,
+    "index": 35,
+    "display_name": "ග්‍රි",
+    "category": "sinhala_character"
+  },
+  "37": {
+    "unicode": "ග්‍රී",
+    "class_id": 37,
+    "index": 36,
+    "display_name": "ග්‍රී",
+    "category": "sinhala_character"
+  },
+  "38": {
+    "unicode": "ච",
+    "class_id": 38,
+    "index": 37,
+    "display_name": "ච",
+    "category": "sinhala_character"
+  },
+  "39": {
+    "unicode": "චා",
+    "class_id": 39,
+    "index": 38,
+    "display_name": "චා",
+    "category": "sinhala_character"
+  },
+  "40": {
+    "unicode": "චැ",
+    "class_id": 40,
+    "index": 39,
+    "display_name": "චැ",
+    "category": "sinhala_character"
+  },
+  "41": {
+    "unicode": "චෑ",
+    "class_id": 41,
+    "index": 40,
+    "display_name": "චෑ",
+    "category": "sinhala_character"
+  },
+  "42": {
+    "unicode": "චි",
+    "class_id": 42,
+    "index": 41,
+    "display_name": "චි",
+    "category": "sinhala_character"
+  },
+  "43": {
+    "unicode": "චී",
+    "class_id": 43,
+    "index": 42,
+    "display_name": "චී",
+    "category": "sinhala_character"
+  },
+  "44": {
+    "unicode": "චු",
+    "class_id": 44,
+    "index": 43,
+    "display_name": "චු",
+    "category": "sinhala_character"
+  },
+  "45": {
+    "unicode": "චූ",
+    "class_id": 45,
+    "index": 44,
+    "display_name": "චූ",
+    "category": "sinhala_character"
+  },
+  "46": {
+    "unicode": "ච්",
+    "class_id": 46,
+    "index": 45,
+    "display_name": "ච්",
+    "category": "sinhala_character"
+  },
+  "47": {
+    "unicode": "චෝ",
+    "class_id": 47,
+    "index": 46,
+    "display_name": "චෝ",
+    "category": "sinhala_character"
+  },
+  "48": {
+    "unicode": "ච්‍ර",
+    "class_id": 48,
+    "index": 47,
+    "display_name": "ච්‍ර",
+    "category": "sinhala_character"
+  },
+  "49": {
+    "unicode": "ච්‍ර්",
+    "class_id": 49,
+    "index": 48,
+    "display_name": "ච්‍ර්",
+    "category": "sinhala_character"
+  },
+  "50": {
+    "unicode": "ච්‍රී",
+    "class_id": 50,
+    "index": 49,
+    "display_name": "ච්‍රී",
+    "category": "sinhala_character"
+  },
+  "51": {
+    "unicode": "ජ",
+    "class_id": 51,
+    "index": 50,
+    "display_name": "ජ",
+    "category": "sinhala_character"
+  },
+  "52": {
+    "unicode": "ජා",
+    "class_id": 52,
+    "index": 51,
+    "display_name": "ජා",
+    "category": "sinhala_character"
+  },
+  "53": {
+    "unicode": "ජැ",
+    "class_id": 53,
+    "index": 52,
+    "display_name": "ජැ",
+    "category": "sinhala_character"
+  },
+  "54": {
+    "unicode": "ජෑ",
+    "class_id": 54,
+    "index": 53,
+    "display_name": "ජෑ",
+    "category": "sinhala_character"
+  },
+  "55": {
+    "unicode": "ජි",
+    "class_id": 55,
+    "index": 54,
+    "display_name": "ජි",
+    "category": "sinhala_character"
+  },
+  "56": {
+    "unicode": "ජී",
+    "class_id": 56,
+    "index": 55,
+    "display_name": "ජී",
+    "category": "sinhala_character"
+  },
+  "57": {
+    "unicode": "ජු",
+    "class_id": 57,
+    "index": 56,
+    "display_name": "ජු",
+    "category": "sinhala_character"
+  },
+  "58": {
+    "unicode": "ජූ",
+    "class_id": 58,
+    "index": 57,
+    "display_name": "ජූ",
+    "category": "sinhala_character"
+  },
+  "59": {
+    "unicode": "ජ්",
+    "class_id": 59,
+    "index": 58,
+    "display_name": "ජ්",
+    "category": "sinhala_character"
+  },
+  "60": {
+    "unicode": "ජෝ",
+    "class_id": 60,
+    "index": 59,
+    "display_name": "ජෝ",
+    "category": "sinhala_character"
+  },
+  "61": {
+    "unicode": "ජ්‍ර",
+    "class_id": 61,
+    "index": 60,
+    "display_name": "ජ්‍ර",
+    "category": "sinhala_character"
+  },
+  "62": {
+    "unicode": "ජ්‍රි",
+    "class_id": 62,
+    "index": 61,
+    "display_name": "ජ්‍රි",
+    "category": "sinhala_character"
+  },
+  "63": {
+    "unicode": "ජ්‍රී",
+    "class_id": 63,
+    "index": 62,
+    "display_name": "ජ්‍රී",
+    "category": "sinhala_character"
+  },
+  "64": {
+    "unicode": "ට",
+    "class_id": 64,
+    "index": 63,
+    "display_name": "ට",
+    "category": "sinhala_character"
+  },
+  "65": {
+    "unicode": "ටා",
+    "class_id": 65,
+    "index": 64,
+    "display_name": "ටා",
+    "category": "sinhala_character"
+  },
+  "66": {
+    "unicode": "ටැ",
+    "class_id": 66,
+    "index": 65,
+    "display_name": "ටැ",
+    "category": "sinhala_character"
+  },
+  "67": {
+    "unicode": "ටෑ",
+    "class_id": 67,
+    "index": 66,
+    "display_name": "ටෑ",
+    "category": "sinhala_character"
+  },
+  "68": {
+    "unicode": "ටි",
+    "class_id": 68,
+    "index": 67,
+    "display_name": "ටි",
+    "category": "sinhala_character"
+  },
+  "69": {
+    "unicode": "ටී",
+    "class_id": 69,
+    "index": 68,
+    "display_name": "ටී",
+    "category": "sinhala_character"
+  },
+  "70": {
+    "unicode": "ටු",
+    "class_id": 70,
+    "index": 69,
+    "display_name": "ටු",
+    "category": "sinhala_character"
+  },
+  "71": {
+    "unicode": "ටූ",
+    "class_id": 71,
+    "index": 70,
+    "display_name": "ටූ",
+    "category": "sinhala_character"
+  },
+  "72": {
+    "unicode": "ට්",
+    "class_id": 72,
+    "index": 71,
+    "display_name": "ට්",
+    "category": "sinhala_character"
+  },
+  "73": {
+    "unicode": "ටෝ",
+    "class_id": 73,
+    "index": 72,
+    "display_name": "ටෝ",
+    "category": "sinhala_character"
+  },
+  "74": {
+    "unicode": "ට්‍ර",
+    "class_id": 74,
+    "index": 73,
+    "display_name": "ට්‍ර",
+    "category": "sinhala_character"
+  },
+  "75": {
+    "unicode": "ට්‍ර්",
+    "class_id": 75,
+    "index": 74,
+    "display_name": "ට්‍ර්",
+    "category": "sinhala_character"
+  },
+  "76": {
+    "unicode": "ට්‍රි",
+    "class_id": 76,
+    "index": 75,
+    "display_name": "ට්‍රි",
+    "category": "sinhala_character"
+  },
+  "77": {
+    "unicode": "ඩ",
+    "class_id": 77,
+    "index": 76,
+    "display_name": "ඩ",
+    "category": "sinhala_character"
+  },
+  "78": {
+    "unicode": "ඩා",
+    "class_id": 78,
+    "index": 77,
+    "display_name": "ඩා",
+    "category": "sinhala_character"
+  },
+  "79": {
+    "unicode": "ඩැ",
+    "class_id": 79,
+    "index": 78,
+    "display_name": "ඩැ",
+    "category": "sinhala_character"
+  },
+  "80": {
+    "unicode": "ඩෑ",
+    "class_id": 80,
+    "index": 79,
+    "display_name": "ඩෑ",
+    "category": "sinhala_character"
+  },
+  "81": {
+    "unicode": "ඩි",
+    "class_id": 81,
+    "index": 80,
+    "display_name": "ඩි",
+    "category": "sinhala_character"
+  },
+  "82": {
+    "unicode": "ඩී",
+    "class_id": 82,
+    "index": 81,
+    "display_name": "ඩී",
+    "category": "sinhala_character"
+  },
+  "83": {
+    "unicode": "ඩු",
+    "class_id": 83,
+    "index": 82,
+    "display_name": "ඩු",
+    "category": "sinhala_character"
+  },
+  "84": {
+    "unicode": "ඩූ",
+    "class_id": 84,
+    "index": 83,
+    "display_name": "ඩූ",
+    "category": "sinhala_character"
+  },
+  "85": {
+    "unicode": "ඩ්",
+    "class_id": 85,
+    "index": 84,
+    "display_name": "ඩ්",
+    "category": "sinhala_character"
+  },
+  "86": {
+    "unicode": "ඩෝ",
+    "class_id": 86,
+    "index": 85,
+    "display_name": "ඩෝ",
+    "category": "sinhala_character"
+  },
+  "87": {
+    "unicode": "ඩ්‍ර",
+    "class_id": 87,
+    "index": 86,
+    "display_name": "ඩ්‍ර",
+    "category": "sinhala_character"
+  },
+  "88": {
+    "unicode": "ඩ්‍ර්",
+    "class_id": 88,
+    "index": 87,
+    "display_name": "ඩ්‍ර්",
+    "category": "sinhala_character"
+  },
+  "89": {
+    "unicode": "ඩ්‍රි",
+    "class_id": 89,
+    "index": 88,
+    "display_name": "ඩ්‍රි",
+    "category": "sinhala_character"
+  },
+  "90": {
+    "unicode": "ණ",
+    "class_id": 90,
+    "index": 89,
+    "display_name": "ණ",
+    "category": "sinhala_character"
+  },
+  "91": {
+    "unicode": "ණා",
+    "class_id": 91,
+    "index": 90,
+    "display_name": "ණා",
+    "category": "sinhala_character"
+  },
+  "92": {
+    "unicode": "ණි",
+    "class_id": 92,
+    "index": 91,
+    "display_name": "ණි",
+    "category": "sinhala_character"
+  },
+  "93": {
+    "unicode": "ත",
+    "class_id": 93,
+    "index": 92,
+    "display_name": "ත",
+    "category": "sinhala_character"
+  },
+  "94": {
+    "unicode": "තා",
+    "class_id": 94,
+    "index": 93,
+    "display_name": "තා",
+    "category": "sinhala_character"
+  },
+  "95": {
+    "unicode": "ති",
+    "class_id": 95,
+    "index": 94,
+    "display_name": "ති",
+    "category": "sinhala_character"
+  },
+  "96": {
+    "unicode": "තී",
+    "class_id": 96,
+    "index": 95,
+    "display_name": "තී",
+    "category": "sinhala_character"
+  },
+  "97": {
+    "unicode": "තු",
+    "class_id": 97,
+    "index": 96,
+    "display_name": "තු",
+    "category": "sinhala_character"
+  },
+  "98": {
+    "unicode": "තූ",
+    "class_id": 98,
+    "index": 97,
+    "display_name": "තූ",
+    "category": "sinhala_character"
+  },
+  "99": {
+    "unicode": "ත්",
+    "class_id": 99,
+    "index": 98,
+    "display_name": "ත්",
+    "category": "sinhala_character"
+  },
+  "100": {
+    "unicode": "තෝ",
+    "class_id": 100,
+    "index": 99,
+    "display_name": "තෝ",
+    "category": "sinhala_character"
+  },
+  "101": {
+    "unicode": "ත්‍ර",
+    "class_id": 101,
+    "index": 100,
+    "display_name": "ත්‍ර",
+    "category": "sinhala_character"
+  },
+  "102": {
+    "unicode": "ත්‍රා",
+    "class_id": 102,
+    "index": 101,
+    "display_name": "ත්‍රා",
+    "category": "sinhala_character"
+  },
+  "103": {
+    "unicode": "ත්‍රි",
+    "class_id": 103,
+    "index": 102,
+    "display_name": "ත්‍රි",
+    "category": "sinhala_character"
+  },
+  "104": {
+    "unicode": "ත්‍රී",
+    "class_id": 104,
+    "index": 103,
+    "display_name": "ත්‍රී",
+    "category": "sinhala_character"
+  },
+  "105": {
+    "unicode": "ද ",
+    "class_id": 105,
+    "index": 104,
+    "display_name": "ද ",
+    "category": "sinhala_character"
+  },
+  "106": {
+    "unicode": "දා",
+    "class_id": 106,
+    "index": 105,
+    "display_name": "දා",
+    "category": "sinhala_character"
+  },
+  "107": {
+    "unicode": "දැ",
+    "class_id": 107,
+    "index": 106,
+    "display_name": "දැ",
+    "category": "sinhala_character"
+  },
+  "108": {
+    "unicode": "දෑ",
+    "class_id": 108,
+    "index": 107,
+    "display_name": "දෑ",
+    "category": "sinhala_character"
+  },
+  "109": {
+    "unicode": "දි",
+    "class_id": 109,
+    "index": 108,
+    "display_name": "දි",
+    "category": "sinhala_character"
+  },
+  "110": {
+    "unicode": "දී",
+    "class_id": 110,
+    "index": 109,
+    "display_name": "දී",
+    "category": "sinhala_character"
+  },
+  "111": {
+    "unicode": "දු",
+    "class_id": 111,
+    "index": 110,
+    "display_name": "දු",
+    "category": "sinhala_character"
+  },
+  "112": {
+    "unicode": "දූ",
+    "class_id": 112,
+    "index": 111,
+    "display_name": "දූ",
+    "category": "sinhala_character"
+  },
+  "113": {
+    "unicode": "ද්",
+    "class_id": 113,
+    "index": 112,
+    "display_name": "ද්",
+    "category": "sinhala_character"
+  },
+  "114": {
+    "unicode": "දෝ",
+    "class_id": 114,
+    "index": 113,
+    "display_name": "දෝ",
+    "category": "sinhala_character"
+  },
+  "115": {
+    "unicode": "ද්‍ර",
+    "class_id": 115,
+    "index": 114,
+    "display_name": "ද්‍ර",
+    "category": "sinhala_character"
+  },
+  "116": {
+    "unicode": "ද්‍රෝ",
+    "class_id": 116,
+    "index": 115,
+    "display_name": "ද්‍රෝ",
+    "category": "sinhala_character"
+  },
+  "117": {
+    "unicode": "ද්‍රා",
+    "class_id": 117,
+    "index": 116,
+    "display_name": "ද්‍රා",
+    "category": "sinhala_character"
+  },
+  "118": {
+    "unicode": "ද්‍රි",
+    "class_id": 118,
+    "index": 117,
+    "display_name": "ද්‍රි",
+    "category": "sinhala_character"
+  },
+  "119": {
+    "unicode": "ද්‍රී",
+    "class_id": 119,
+    "index": 118,
+    "display_name": "ද්‍රී",
+    "category": "sinhala_character"
+  },
+  "120": {
+    "unicode": "න",
+    "class_id": 120,
+    "index": 119,
+    "display_name": "න",
+    "category": "sinhala_character"
+  },
+  "121": {
+    "unicode": "නා",
+    "class_id": 121,
+    "index": 120,
+    "display_name": "නා",
+    "category": "sinhala_character"
+  },
+  "122": {
+    "unicode": "නැ",
+    "class_id": 122,
+    "index": 121,
+    "display_name": "නැ",
+    "category": "sinhala_character"
+  },
+  "123": {
+    "unicode": "නෑ",
+    "class_id": 123,
+    "index": 122,
+    "display_name": "නෑ",
+    "category": "sinhala_character"
+  },
+  "124": {
+    "unicode": "නි",
+    "class_id": 124,
+    "index": 123,
+    "display_name": "නි",
+    "category": "sinhala_character"
+  },
+  "125": {
+    "unicode": "නී",
+    "class_id": 125,
+    "index": 124,
+    "display_name": "නී",
+    "category": "sinhala_character"
+  },
+  "126": {
+    "unicode": "නු",
+    "class_id": 126,
+    "index": 125,
+    "display_name": "නු",
+    "category": "sinhala_character"
+  },
+  "127": {
+    "unicode": "නූ",
+    "class_id": 127,
+    "index": 126,
+    "display_name": "නූ",
+    "category": "sinhala_character"
+  },
+  "128": {
+    "unicode": "න්",
+    "class_id": 128,
+    "index": 127,
+    "display_name": "න්",
+    "category": "sinhala_character"
+  },
+  "129": {
+    "unicode": "නෝ",
+    "class_id": 129,
+    "index": 128,
+    "display_name": "නෝ",
+    "category": "sinhala_character"
+  },
+  "130": {
+    "unicode": "න්‍ර",
+    "class_id": 130,
+    "index": 129,
+    "display_name": "න්‍ර",
+    "category": "sinhala_character"
+  },
+  "131": {
+    "unicode": "න්‍රා",
+    "class_id": 131,
+    "index": 130,
+    "display_name": "න්‍රා",
+    "category": "sinhala_character"
+  },
+  "132": {
+    "unicode": "න්‍රි",
+    "class_id": 132,
+    "index": 131,
+    "display_name": "න්‍රි",
+    "category": "sinhala_character"
+  },
+  "133": {
+    "unicode": "න්‍රී",
+    "class_id": 133,
+    "index": 132,
+    "display_name": "න්‍රී",
+    "category": "sinhala_character"
+  },
+  "134": {
+    "unicode": "ප",
+    "class_id": 134,
+    "index": 133,
+    "display_name": "ප",
+    "category": "sinhala_character"
+  },
+  "135": {
+    "unicode": "පා",
+    "class_id": 135,
+    "index": 134,
+    "display_name": "පා",
+    "category": "sinhala_character"
+  },
+  "136": {
+    "unicode": "පැ",
+    "class_id": 136,
+    "index": 135,
+    "display_name": "පැ",
+    "category": "sinhala_character"
+  },
+  "137": {
+    "unicode": "පෑ",
+    "class_id": 137,
+    "index": 136,
+    "display_name": "පෑ",
+    "category": "sinhala_character"
+  },
+  "138": {
+    "unicode": "පි",
+    "class_id": 138,
+    "index": 137,
+    "display_name": "පි",
+    "category": "sinhala_character"
+  },
+  "139": {
+    "unicode": "පී",
+    "class_id": 139,
+    "index": 138,
+    "display_name": "පී",
+    "category": "sinhala_character"
+  },
+  "140": {
+    "unicode": "පු",
+    "class_id": 140,
+    "index": 139,
+    "display_name": "පු",
+    "category": "sinhala_character"
+  },
+  "141": {
+    "unicode": "පූ",
+    "class_id": 141,
+    "index": 140,
+    "display_name": "පූ",
+    "category": "sinhala_character"
+  },
+  "142": {
+    "unicode": "ප්",
+    "class_id": 142,
+    "index": 141,
+    "display_name": "ප්",
+    "category": "sinhala_character"
+  },
+  "143": {
+    "unicode": "ප්‍රෝ",
+    "class_id": 143,
+    "index": 142,
+    "display_name": "ප්‍රෝ",
+    "category": "sinhala_character"
+  },
+  "144": {
+    "unicode": "පෝ",
+    "class_id": 144,
+    "index": 143,
+    "display_name": "පෝ",
+    "category": "sinhala_character"
+  },
+  "145": {
+    "unicode": "ප්‍ර",
+    "class_id": 145,
+    "index": 144,
+    "display_name": "ප්‍ර",
+    "category": "sinhala_character"
+  },
+  "146": {
+    "unicode": "ප්‍රා",
+    "class_id": 146,
+    "index": 145,
+    "display_name": "ප්‍රා",
+    "category": "sinhala_character"
+  },
+  "147": {
+    "unicode": "ප්‍රි",
+    "class_id": 147,
+    "index": 146,
+    "display_name": "ප්‍රි",
+    "category": "sinhala_character"
+  },
+  "148": {
+    "unicode": "ප්‍රී",
+    "class_id": 148,
+    "index": 147,
+    "display_name": "ප්‍රී",
+    "category": "sinhala_character"
+  },
+  "149": {
+    "unicode": "බ",
+    "class_id": 149,
+    "index": 148,
+    "display_name": "බ",
+    "category": "sinhala_character"
+  },
+  "150": {
+    "unicode": "බා",
+    "class_id": 150,
+    "index": 149,
+    "display_name": "බා",
+    "category": "sinhala_character"
+  },
+  "151": {
+    "unicode": "බැ",
+    "class_id": 151,
+    "index": 150,
+    "display_name": "බැ",
+    "category": "sinhala_character"
+  },
+  "152": {
+    "unicode": "බෑ",
+    "class_id": 152,
+    "index": 151,
+    "display_name": "බෑ",
+    "category": "sinhala_character"
+  },
+  "153": {
+    "unicode": "බි",
+    "class_id": 153,
+    "index": 152,
+    "display_name": "බි",
+    "category": "sinhala_character"
+  },
+  "154": {
+    "unicode": "බී",
+    "class_id": 154,
+    "index": 153,
+    "display_name": "බී",
+    "category": "sinhala_character"
+  },
+  "155": {
+    "unicode": "බු",
+    "class_id": 155,
+    "index": 154,
+    "display_name": "බු",
+    "category": "sinhala_character"
+  },
+  "156": {
+    "unicode": "බූ",
+    "class_id": 156,
+    "index": 155,
+    "display_name": "බූ",
+    "category": "sinhala_character"
+  },
+  "157": {
+    "unicode": "බ්",
+    "class_id": 157,
+    "index": 156,
+    "display_name": "බ්",
+    "category": "sinhala_character"
+  },
+  "158": {
+    "unicode": "බ්‍රෝ",
+    "class_id": 158,
+    "index": 157,
+    "display_name": "බ්‍රෝ",
+    "category": "sinhala_character"
+  },
+  "159": {
+    "unicode": "බ්‍ර",
+    "class_id": 159,
+    "index": 158,
+    "display_name": "බ්‍ර",
+    "category": "sinhala_character"
+  },
+  "160": {
+    "unicode": "බ්‍රා",
+    "class_id": 160,
+    "index": 159,
+    "display_name": "බ්‍රා",
+    "category": "sinhala_character"
+  },
+  "161": {
+    "unicode": "බ්‍රි",
+    "class_id": 161,
+    "index": 160,
+    "display_name": "බ්‍රි",
+    "category": "sinhala_character"
+  },
+  "162": {
+    "unicode": "බ්‍රී",
+    "class_id": 162,
+    "index": 161,
+    "display_name": "බ්‍රී",
+    "category": "sinhala_character"
+  },
+  "163": {
+    "unicode": "බ්‍රෝ",
+    "class_id": 163,
+    "index": 162,
+    "display_name": "බ්‍රෝ",
+    "category": "sinhala_character"
+  },
+  "164": {
+    "unicode": "ම",
+    "class_id": 164,
+    "index": 163,
+    "display_name": "ම",
+    "category": "sinhala_character"
+  },
+  "165": {
+    "unicode": "මා",
+    "class_id": 165,
+    "index": 164,
+    "display_name": "මා",
+    "category": "sinhala_character"
+  },
+  "166": {
+    "unicode": "මැ",
+    "class_id": 166,
+    "index": 165,
+    "display_name": "මැ",
+    "category": "sinhala_character"
+  },
+  "167": {
+    "unicode": "මෑ",
+    "class_id": 167,
+    "index": 166,
+    "display_name": "මෑ",
+    "category": "sinhala_character"
+  },
+  "168": {
+    "unicode": "මි",
+    "class_id": 168,
+    "index": 167,
+    "display_name": "මි",
+    "category": "sinhala_character"
+  },
+  "169": {
+    "unicode": "මී",
+    "class_id": 169,
+    "index": 168,
+    "display_name": "මී",
+    "category": "sinhala_character"
+  },
+  "170": {
+    "unicode": "මු",
+    "class_id": 170,
+    "index": 169,
+    "display_name": "මු",
+    "category": "sinhala_character"
+  },
+  "171": {
+    "unicode": "මූ",
+    "class_id": 171,
+    "index": 170,
+    "display_name": "මූ",
+    "category": "sinhala_character"
+  },
+  "172": {
+    "unicode": "ම්",
+    "class_id": 172,
+    "index": 171,
+    "display_name": "ම්",
+    "category": "sinhala_character"
+  },
+  "173": {
+    "unicode": "මෝ",
+    "class_id": 173,
+    "index": 172,
+    "display_name": "මෝ",
+    "category": "sinhala_character"
+  },
+  "174": {
+    "unicode": "ම්‍ර",
+    "class_id": 174,
+    "index": 173,
+    "display_name": "ම්‍ර",
+    "category": "sinhala_character"
+  },
+  "175": {
+    "unicode": "ම්‍රා",
+    "class_id": 175,
+    "index": 174,
+    "display_name": "ම්‍රා",
+    "category": "sinhala_character"
+  },
+  "176": {
+    "unicode": "ම්‍රි",
+    "class_id": 176,
+    "index": 175,
+    "display_name": "ම්‍රි",
+    "category": "sinhala_character"
+  },
+  "177": {
+    "unicode": "ම්‍රී",
+    "class_id": 177,
+    "index": 176,
+    "display_name": "ම්‍රී",
+    "category": "sinhala_character"
+  },
+  "178": {
+    "unicode": "ම්‍රෝ",
+    "class_id": 178,
+    "index": 177,
+    "display_name": "ම්‍රෝ",
+    "category": "sinhala_character"
+  },
+  "179": {
+    "unicode": "ය",
+    "class_id": 179,
+    "index": 178,
+    "display_name": "ය",
+    "category": "sinhala_character"
+  },
+  "180": {
+    "unicode": "යා",
+    "class_id": 180,
+    "index": 179,
+    "display_name": "යා",
+    "category": "sinhala_character"
+  },
+  "181": {
+    "unicode": "යැ",
+    "class_id": 181,
+    "index": 180,
+    "display_name": "යැ",
+    "category": "sinhala_character"
+  },
+  "182": {
+    "unicode": "යෑ",
+    "class_id": 182,
+    "index": 181,
+    "display_name": "යෑ",
+    "category": "sinhala_character"
+  },
+  "183": {
+    "unicode": "යි",
+    "class_id": 183,
+    "index": 182,
+    "display_name": "යි",
+    "category": "sinhala_character"
+  },
+  "184": {
+    "unicode": "යී",
+    "class_id": 184,
+    "index": 183,
+    "display_name": "යී",
+    "category": "sinhala_character"
+  },
+  "185": {
+    "unicode": "යු",
+    "class_id": 185,
+    "index": 184,
+    "display_name": "යු",
+    "category": "sinhala_character"
+  },
+  "186": {
+    "unicode": "යූ",
+    "class_id": 186,
+    "index": 185,
+    "display_name": "යූ",
+    "category": "sinhala_character"
+  },
+  "187": {
+    "unicode": "ෝ",
+    "class_id": 187,
+    "index": 186,
+    "display_name": "ෝ",
+    "category": "sinhala_character"
+  },
+  "188": {
+    "unicode": "ය්",
+    "class_id": 188,
+    "index": 187,
+    "display_name": "ය්",
+    "category": "sinhala_character"
+  },
+  "189": {
+    "unicode": "hda",
+    "class_id": 189,
+    "index": 188,
+    "display_name": "hda",
+    "category": "sinhala_character"
+  },
+  "190": {
+    "unicode": "ර",
+    "class_id": 190,
+    "index": 189,
+    "display_name": "ර",
+    "category": "sinhala_character"
+  },
+  "191": {
+    "unicode": "රා",
+    "class_id": 191,
+    "index": 190,
+    "display_name": "රා",
+    "category": "sinhala_character"
+  },
+  "192": {
+    "unicode": "රැ",
+    "class_id": 192,
+    "index": 191,
+    "display_name": "රැ",
+    "category": "sinhala_character"
+  },
+  "193": {
+    "unicode": "රැ",
+    "class_id": 193,
+    "index": 192,
+    "display_name": "රැ",
+    "category": "sinhala_character"
+  },
+  "194": {
+    "unicode": "රු",
+    "class_id": 194,
+    "index": 193,
+    "display_name": "රු",
+    "category": "sinhala_character"
+  },
+  "195": {
+    "unicode": "රූ",
+    "class_id": 195,
+    "index": 194,
+    "display_name": "රූ",
+    "category": "sinhala_character"
+  },
+  "196": {
+    "unicode": "රි",
+    "class_id": 196,
+    "index": 195,
+    "display_name": "රි",
+    "category": "sinhala_character"
+  },
+  "197": {
+    "unicode": "රී",
+    "class_id": 197,
+    "index": 196,
+    "display_name": "රී",
+    "category": "sinhala_character"
+  },
+  "198": {
+    "unicode": "ල",
+    "class_id": 198,
+    "index": 197,
+    "display_name": "ල",
+    "category": "sinhala_character"
+  },
+  "199": {
+    "unicode": "ලා",
+    "class_id": 199,
+    "index": 198,
+    "display_name": "ලා",
+    "category": "sinhala_character"
+  },
+  "200": {
+    "unicode": "ලැ",
+    "class_id": 200,
+    "index": 199,
+    "display_name": "ලැ",
+    "category": "sinhala_character"
+  },
+  "201": {
+    "unicode": "ලෑ",
+    "class_id": 201,
+    "index": 200,
+    "display_name": "ලෑ",
+    "category": "sinhala_character"
+  },
+  "202": {
+    "unicode": "ලි",
+    "class_id": 202,
+    "index": 201,
+    "display_name": "ලි",
+    "category": "sinhala_character"
+  },
+  "203": {
+    "unicode": "ලී",
+    "class_id": 203,
+    "index": 202,
+    "display_name": "ලී",
+    "category": "sinhala_character"
+  },
+  "204": {
+    "unicode": "ලු",
+    "class_id": 204,
+    "index": 203,
+    "display_name": "ලු",
+    "category": "sinhala_character"
+  },
+  "205": {
+    "unicode": "ලූ",
+    "class_id": 205,
+    "index": 204,
+    "display_name": "ලූ",
+    "category": "sinhala_character"
+  },
+  "206": {
+    "unicode": "ල්",
+    "class_id": 206,
+    "index": 205,
+    "display_name": "ල්",
+    "category": "sinhala_character"
+  },
+  "207": {
+    "unicode": ",da",
+    "class_id": 207,
+    "index": 206,
+    "display_name": ",da",
+    "category": "sinhala_character"
+  },
+  "208": {
+    "unicode": "ව",
+    "class_id": 208,
+    "index": 207,
+    "display_name": "ව",
+    "category": "sinhala_character"
+  },
+  "209": {
+    "unicode": "වා",
+    "class_id": 209,
+    "index": 208,
+    "display_name": "වා",
+    "category": "sinhala_character"
+  },
+  "210": {
+    "unicode": "වැ",
+    "class_id": 210,
+    "index": 209,
+    "display_name": "වැ",
+    "category": "sinhala_character"
+  },
+  "211": {
+    "unicode": "වෑ",
+    "class_id": 211,
+    "index": 210,
+    "display_name": "වෑ",
+    "category": "sinhala_character"
+  },
+  "212": {
+    "unicode": "වි",
+    "class_id": 212,
+    "index": 211,
+    "display_name": "වි",
+    "category": "sinhala_character"
+  },
+  "213": {
+    "unicode": "වී",
+    "class_id": 213,
+    "index": 212,
+    "display_name": "වී",
+    "category": "sinhala_character"
+  },
+  "214": {
+    "unicode": "වු",
+    "class_id": 214,
+    "index": 213,
+    "display_name": "වු",
+    "category": "sinhala_character"
+  },
+  "215": {
+    "unicode": "වූ",
+    "class_id": 215,
+    "index": 214,
+    "display_name": "වූ",
+    "category": "sinhala_character"
+  },
+  "216": {
+    "unicode": "ව්",
+    "class_id": 216,
+    "index": 215,
+    "display_name": "ව්",
+    "category": "sinhala_character"
+  },
+  "217": {
+    "unicode": "jda",
+    "class_id": 217,
+    "index": 216,
+    "display_name": "jda",
+    "category": "sinhala_character"
+  },
+  "218": {
+    "unicode": "ව්‍ර",
+    "class_id": 218,
+    "index": 217,
+    "display_name": "ව්‍ර",
+    "category": "sinhala_character"
+  },
+  "219": {
+    "unicode": "ව්‍රා",
+    "class_id": 219,
+    "index": 218,
+    "display_name": "ව්‍රා",
+    "category": "sinhala_character"
+  },
+  "220": {
+    "unicode": "ව්‍රැ",
+    "class_id": 220,
+    "index": 219,
+    "display_name": "ව්‍රැ",
+    "category": "sinhala_character"
+  },
+  "221": {
+    "unicode": "ව්‍රෑ",
+    "class_id": 221,
+    "index": 220,
+    "display_name": "ව්‍රෑ",
+    "category": "sinhala_character"
+  },
+  "222": {
+    "unicode": "j%da",
+    "class_id": 222,
+    "index": 221,
+    "display_name": "j%da",
+    "category": "sinhala_character"
+  },
+  "223": {
+    "unicode": "ශ",
+    "class_id": 223,
+    "index": 222,
+    "display_name": "ශ",
+    "category": "sinhala_character"
+  },
+  "224": {
+    "unicode": "ශා",
+    "class_id": 224,
+    "index": 223,
+    "display_name": "ශා",
+    "category": "sinhala_character"
+  },
+  "225": {
+    "unicode": "ශැ",
+    "class_id": 225,
+    "index": 224,
+    "display_name": "ශැ",
+    "category": "sinhala_character"
+  },
+  "226": {
+    "unicode": "ශෑ",
+    "class_id": 226,
+    "index": 225,
+    "display_name": "ශෑ",
+    "category": "sinhala_character"
+  },
+  "227": {
+    "unicode": "ශි",
+    "class_id": 227,
+    "index": 226,
+    "display_name": "ශි",
+    "category": "sinhala_character"
+  },
+  "228": {
+    "unicode": "ශී",
+    "class_id": 228,
+    "index": 227,
+    "display_name": "ශී",
+    "category": "sinhala_character"
+  },
+  "229": {
+    "unicode": "ශු",
+    "class_id": 229,
+    "index": 228,
+    "display_name": "ශු",
+    "category": "sinhala_character"
+  },
+  "230": {
+    "unicode": "ශූ",
+    "class_id": 230,
+    "index": 229,
+    "display_name": "ශූ",
+    "category": "sinhala_character"
+  },
+  "231": {
+    "unicode": "ශ්",
+    "class_id": 231,
+    "index": 230,
+    "display_name": "ශ්",
+    "category": "sinhala_character"
+  },
+  "232": {
+    "unicode": "Yda",
+    "class_id": 232,
+    "index": 231,
+    "display_name": "Yda",
+    "category": "sinhala_character"
+  },
+  "233": {
+    "unicode": "ශ්‍ර",
+    "class_id": 233,
+    "index": 232,
+    "display_name": "ශ්‍ර",
+    "category": "sinhala_character"
+  },
+  "234": {
+    "unicode": "ශ්‍රා",
+    "class_id": 234,
+    "index": 233,
+    "display_name": "ශ්‍රා",
+    "category": "sinhala_character"
+  },
+  "235": {
+    "unicode": "ශ්‍රැ",
+    "class_id": 235,
+    "index": 234,
+    "display_name": "ශ්‍රැ",
+    "category": "sinhala_character"
+  },
+  "236": {
+    "unicode": "ශ්‍රෑ",
+    "class_id": 236,
+    "index": 235,
+    "display_name": "ශ්‍රෑ",
+    "category": "sinhala_character"
+  },
+  "237": {
+    "unicode": "ශ්‍රි",
+    "class_id": 237,
+    "index": 236,
+    "display_name": "ශ්‍රි",
+    "category": "sinhala_character"
+  },
+  "238": {
+    "unicode": "ශ්‍රී",
+    "class_id": 238,
+    "index": 237,
+    "display_name": "ශ්‍රී",
+    "category": "sinhala_character"
+  },
+  "239": {
+    "unicode": "Y%da",
+    "class_id": 239,
+    "index": 238,
+    "display_name": "Y%da",
+    "category": "sinhala_character"
+  },
+  "240": {
+    "unicode": "ෂ",
+    "class_id": 240,
+    "index": 239,
+    "display_name": "ෂ",
+    "category": "sinhala_character"
+  },
+  "241": {
+    "unicode": "ෂා",
+    "class_id": 241,
+    "index": 240,
+    "display_name": "ෂා",
+    "category": "sinhala_character"
+  },
+  "242": {
+    "unicode": "ෂැ",
+    "class_id": 242,
+    "index": 241,
+    "display_name": "ෂැ",
+    "category": "sinhala_character"
+  },
+  "243": {
+    "unicode": "ෂෑ",
+    "class_id": 243,
+    "index": 242,
+    "display_name": "ෂෑ",
+    "category": "sinhala_character"
+  },
+  "244": {
+    "unicode": "ෂි",
+    "class_id": 244,
+    "index": 243,
+    "display_name": "ෂි",
+    "category": "sinhala_character"
+  },
+  "245": {
+    "unicode": "ෂී",
+    "class_id": 245,
+    "index": 244,
+    "display_name": "ෂී",
+    "category": "sinhala_character"
+  },
+  "246": {
+    "unicode": "ෂු",
+    "class_id": 246,
+    "index": 245,
+    "display_name": "ෂු",
+    "category": "sinhala_character"
+  },
+  "247": {
+    "unicode": "ෂූ",
+    "class_id": 247,
+    "index": 246,
+    "display_name": "ෂූ",
+    "category": "sinhala_character"
+  },
+  "248": {
+    "unicode": "ෂ්",
+    "class_id": 248,
+    "index": 247,
+    "display_name": "ෂ්",
+    "category": "sinhala_character"
+  },
+  "249": {
+    "unicode": "Ida",
+    "class_id": 249,
+    "index": 248,
+    "display_name": "Ida",
+    "category": "sinhala_character"
+  },
+  "250": {
+    "unicode": "ස",
+    "class_id": 250,
+    "index": 249,
+    "display_name": "ස",
+    "category": "sinhala_character"
+  },
+  "251": {
+    "unicode": "සා",
+    "class_id": 251,
+    "index": 250,
+    "display_name": "සා",
+    "category": "sinhala_character"
+  },
+  "252": {
+    "unicode": "සැ",
+    "class_id": 252,
+    "index": 251,
+    "display_name": "සැ",
+    "category": "sinhala_character"
+  },
+  "253": {
+    "unicode": "සෑ",
+    "class_id": 253,
+    "index": 252,
+    "display_name": "සෑ",
+    "category": "sinhala_character"
+  },
+  "254": {
+    "unicode": "සි",
+    "class_id": 254,
+    "index": 253,
+    "display_name": "සි",
+    "category": "sinhala_character"
+  },
+  "255": {
+    "unicode": "සී",
+    "class_id": 255,
+    "index": 254,
+    "display_name": "සී",
+    "category": "sinhala_character"
+  },
+  "256": {
+    "unicode": "සු",
+    "class_id": 256,
+    "index": 255,
+    "display_name": "සු",
+    "category": "sinhala_character"
+  },
+  "257": {
+    "unicode": "සූ",
+    "class_id": 257,
+    "index": 256,
+    "display_name": "සූ",
+    "category": "sinhala_character"
+  },
+  "258": {
+    "unicode": "ida",
+    "class_id": 258,
+    "index": 257,
+    "display_name": "ida",
+    "category": "sinhala_character"
+  },
+  "259": {
+    "unicode": "ස්‍ර",
+    "class_id": 259,
+    "index": 258,
+    "display_name": "ස්‍ර",
+    "category": "sinhala_character"
+  },
+  "260": {
+    "unicode": "ස්‍රා",
+    "class_id": 260,
+    "index": 259,
+    "display_name": "ස්‍රා",
+    "category": "sinhala_character"
+  },
+  "261": {
+    "unicode": "ස්‍රි",
+    "class_id": 261,
+    "index": 260,
+    "display_name": "ස්‍රි",
+    "category": "sinhala_character"
+  },
+  "262": {
+    "unicode": "ස්‍රී",
+    "class_id": 262,
+    "index": 261,
+    "display_name": "ස්‍රී",
+    "category": "sinhala_character"
+  },
+  "263": {
+    "unicode": "ස්",
+    "class_id": 263,
+    "index": 262,
+    "display_name": "ස්",
+    "category": "sinhala_character"
+  },
+  "264": {
+    "unicode": "හ",
+    "class_id": 264,
+    "index": 263,
+    "display_name": "හ",
+    "category": "sinhala_character"
+  },
+  "265": {
+    "unicode": "හා",
+    "class_id": 265,
+    "index": 264,
+    "display_name": "හා",
+    "category": "sinhala_character"
+  },
+  "266": {
+    "unicode": "හැ",
+    "class_id": 266,
+    "index": 265,
+    "display_name": "හැ",
+    "category": "sinhala_character"
+  },
+  "267": {
+    "unicode": "හෑ",
+    "class_id": 267,
+    "index": 266,
+    "display_name": "හෑ",
+    "category": "sinhala_character"
+  },
+  "268": {
+    "unicode": "හි",
+    "class_id": 268,
+    "index": 267,
+    "display_name": "හි",
+    "category": "sinhala_character"
+  },
+  "269": {
+    "unicode": "හී",
+    "class_id": 269,
+    "index": 268,
+    "display_name": "හී",
+    "category": "sinhala_character"
+  },
+  "270": {
+    "unicode": "හු",
+    "class_id": 270,
+    "index": 269,
+    "display_name": "හු",
+    "category": "sinhala_character"
+  },
+  "271": {
+    "unicode": "හූ",
+    "class_id": 271,
+    "index": 270,
+    "display_name": "හූ",
+    "category": "sinhala_character"
+  },
+  "272": {
+    "unicode": "හ්",
+    "class_id": 272,
+    "index": 271,
+    "display_name": "හ්",
+    "category": "sinhala_character"
+  },
+  "273": {
+    "unicode": "yda",
+    "class_id": 273,
+    "index": 272,
+    "display_name": "yda",
+    "category": "sinhala_character"
+  },
+  "274": {
+    "unicode": "ළ",
+    "class_id": 274,
+    "index": 273,
+    "display_name": "ළ",
+    "category": "sinhala_character"
+  },
+  "275": {
+    "unicode": "ළා",
+    "class_id": 275,
+    "index": 274,
+    "display_name": "ළා",
+    "category": "sinhala_character"
+  },
+  "276": {
+    "unicode": "ළැ",
+    "class_id": 276,
+    "index": 275,
+    "display_name": "ළැ",
+    "category": "sinhala_character"
+  },
+  "277": {
+    "unicode": "ළෑ",
+    "class_id": 277,
+    "index": 276,
+    "display_name": "ළෑ",
+    "category": "sinhala_character"
+  },
+  "278": {
+    "unicode": "ළි",
+    "class_id": 278,
+    "index": 277,
+    "display_name": "ළි",
+    "category": "sinhala_character"
+  },
+  "279": {
+    "unicode": "ළී",
+    "class_id": 279,
+    "index": 278,
+    "display_name": "ළී",
+    "category": "sinhala_character"
+  },
+  "280": {
+    "unicode": "ළූ",
+    "class_id": 280,
+    "index": 279,
+    "display_name": "ළූ",
+    "category": "sinhala_character"
+  },
+  "281": {
+    "unicode": "ළූ",
+    "class_id": 281,
+    "index": 280,
+    "display_name": "ළූ",
+    "category": "sinhala_character"
+  },
+  "282": {
+    "unicode": "ෆ",
+    "class_id": 282,
+    "index": 281,
+    "display_name": "ෆ",
+    "category": "sinhala_character"
+  },
+  "283": {
+    "unicode": "ෆා",
+    "class_id": 283,
+    "index": 282,
+    "display_name": "ෆා",
+    "category": "sinhala_character"
+  },
+  "284": {
+    "unicode": "ෆැ",
+    "class_id": 284,
+    "index": 283,
+    "display_name": "ෆැ",
+    "category": "sinhala_character"
+  },
+  "285": {
+    "unicode": "ෆෑ",
+    "class_id": 285,
+    "index": 284,
+    "display_name": "ෆෑ",
+    "category": "sinhala_character"
+  },
+  "286": {
+    "unicode": "ෆි",
+    "class_id": 286,
+    "index": 285,
+    "display_name": "ෆි",
+    "category": "sinhala_character"
+  },
+  "287": {
+    "unicode": "ෆී",
+    "class_id": 287,
+    "index": 286,
+    "display_name": "ෆී",
+    "category": "sinhala_character"
+  },
+  "288": {
+    "unicode": "ෆූ",
+    "class_id": 288,
+    "index": 287,
+    "display_name": "ෆූ",
+    "category": "sinhala_character"
+  },
+  "289": {
+    "unicode": "ෆූ",
+    "class_id": 289,
+    "index": 288,
+    "display_name": "ෆූ",
+    "category": "sinhala_character"
+  },
+  "290": {
+    "unicode": "ෆ්‍ර",
+    "class_id": 290,
+    "index": 289,
+    "display_name": "ෆ්‍ර",
+    "category": "sinhala_character"
+  },
+  "291": {
+    "unicode": "ෆ්‍රි",
+    "class_id": 291,
+    "index": 290,
+    "display_name": "ෆ්‍රි",
+    "category": "sinhala_character"
+  },
+  "292": {
+    "unicode": "ෆ්‍රී",
+    "class_id": 292,
+    "index": 291,
+    "display_name": "ෆ්‍රී",
+    "category": "sinhala_character"
+  },
+  "293": {
+    "unicode": "ෆ්‍රැ",
+    "class_id": 293,
+    "index": 292,
+    "display_name": "ෆ්‍රැ",
+    "category": "sinhala_character"
+  },
+  "294": {
+    "unicode": "ෆ්‍රෑ",
+    "class_id": 294,
+    "index": 293,
+    "display_name": "ෆ්‍රෑ",
+    "category": "sinhala_character"
+  },
+  "295": {
+    "unicode": "ෆ්",
+    "class_id": 295,
+    "index": 294,
+    "display_name": "ෆ්",
+    "category": "sinhala_character"
+  },
+  "296": {
+    "unicode": "*da",
+    "class_id": 296,
+    "index": 295,
+    "display_name": "*da",
+    "category": "sinhala_character"
+  },
+  "297": {
+    "unicode": "ක්‍රා",
+    "class_id": 297,
+    "index": 296,
+    "display_name": "ක්‍රා",
+    "category": "sinhala_character"
+  },
+  "298": {
+    "unicode": "ක්‍රැ",
+    "class_id": 298,
+    "index": 297,
+    "display_name": "ක්‍රැ",
+    "category": "sinhala_character"
+  },
+  "299": {
+    "unicode": "ක්‍රෑ",
+    "class_id": 299,
+    "index": 298,
+    "display_name": "ක්‍රෑ",
+    "category": "sinhala_character"
+  },
+  "300": {
+    "unicode": "l%da",
+    "class_id": 300,
+    "index": 299,
+    "display_name": "l%da",
+    "category": "sinhala_character"
+  },
+  "301": {
+    "unicode": ".%da",
+    "class_id": 301,
+    "index": 300,
+    "display_name": ".%da",
+    "category": "sinhala_character"
+  },
+  "302": {
+    "unicode": "ඛ",
+    "class_id": 302,
+    "index": 301,
+    "display_name": "ඛ",
+    "category": "sinhala_character"
+  },
+  "303": {
+    "unicode": "ඛා",
+    "class_id": 303,
+    "index": 302,
+    "display_name": "ඛා",
+    "category": "sinhala_character"
+  },
+  "304": {
+    "unicode": "ඛි",
+    "class_id": 304,
+    "index": 303,
+    "display_name": "ඛි",
+    "category": "sinhala_character"
+  },
+  "305": {
+    "unicode": "ඛී",
+    "class_id": 305,
+    "index": 304,
+    "display_name": "ඛී",
+    "category": "sinhala_character"
+  },
+  "306": {
+    "unicode": "ඛ්",
+    "class_id": 306,
+    "index": 305,
+    "display_name": "ඛ්",
+    "category": "sinhala_character"
+  },
+  "307": {
+    "unicode": "ඝ",
+    "class_id": 307,
+    "index": 306,
+    "display_name": "ඝ",
+    "category": "sinhala_character"
+  },
+  "308": {
+    "unicode": "ඝා",
+    "class_id": 308,
+    "index": 307,
+    "display_name": "ඝා",
+    "category": "sinhala_character"
+  },
+  "309": {
+    "unicode": "ඝැ",
+    "class_id": 309,
+    "index": 308,
+    "display_name": "ඝැ",
+    "category": "sinhala_character"
+  },
+  "310": {
+    "unicode": "ඝෑ",
+    "class_id": 310,
+    "index": 309,
+    "display_name": "ඝෑ",
+    "category": "sinhala_character"
+  },
+  "311": {
+    "unicode": "ඝි",
+    "class_id": 311,
+    "index": 310,
+    "display_name": "ඝි",
+    "category": "sinhala_character"
+  },
+  "312": {
+    "unicode": "ඝී",
+    "class_id": 312,
+    "index": 311,
+    "display_name": "ඝී",
+    "category": "sinhala_character"
+  },
+  "313": {
+    "unicode": "ඝු",
+    "class_id": 313,
+    "index": 312,
+    "display_name": "ඝු",
+    "category": "sinhala_character"
+  },
+  "314": {
+    "unicode": "ඝූ",
+    "class_id": 314,
+    "index": 313,
+    "display_name": "ඝූ",
+    "category": "sinhala_character"
+  },
+  "315": {
+    "unicode": ">da",
+    "class_id": 315,
+    "index": 314,
+    "display_name": ">da",
+    "category": "sinhala_character"
+  },
+  "316": {
+    "unicode": "ඝ්",
+    "class_id": 316,
+    "index": 315,
+    "display_name": "ඝ්",
+    "category": "sinhala_character"
+  },
+  "317": {
+    "unicode": "ඝ්‍ර",
+    "class_id": 317,
+    "index": 316,
+    "display_name": "ඝ්‍ර",
+    "category": "sinhala_character"
+  },
+  "318": {
+    "unicode": "ඝ්‍රා",
+    "class_id": 318,
+    "index": 317,
+    "display_name": "ඝ්‍රා",
+    "category": "sinhala_character"
+  },
+  "319": {
+    "unicode": "ඝ්‍රි",
+    "class_id": 319,
+    "index": 318,
+    "display_name": "ඝ්‍රි",
+    "category": "sinhala_character"
+  },
+  "320": {
+    "unicode": "ඝ්‍රී",
+    "class_id": 320,
+    "index": 319,
+    "display_name": "ඝ්‍රී",
+    "category": "sinhala_character"
+  },
+  "321": {
+    "unicode": "ඳ",
+    "class_id": 321,
+    "index": 320,
+    "display_name": "ඳ",
+    "category": "sinhala_character"
+  },
+  "322": {
+    "unicode": "ඳා",
+    "class_id": 322,
+    "index": 321,
+    "display_name": "ඳා",
+    "category": "sinhala_character"
+  },
+  "323": {
+    "unicode": "ඳැ",
+    "class_id": 323,
+    "index": 322,
+    "display_name": "ඳැ",
+    "category": "sinhala_character"
+  },
+  "324": {
+    "unicode": "ෑ",
+    "class_id": 324,
+    "index": 323,
+    "display_name": "ෑ",
+    "category": "sinhala_character"
+  },
+  "325": {
+    "unicode": "ඳෑ",
+    "class_id": 325,
+    "index": 324,
+    "display_name": "ඳෑ",
+    "category": "sinhala_character"
+  },
+  "326": {
+    "unicode": "ඳි",
+    "class_id": 326,
+    "index": 325,
+    "display_name": "ඳි",
+    "category": "sinhala_character"
+  },
+  "327": {
+    "unicode": "ඳී",
+    "class_id": 327,
+    "index": 326,
+    "display_name": "ඳී",
+    "category": "sinhala_character"
+  },
+  "328": {
+    "unicode": "ඳු",
+    "class_id": 328,
+    "index": 327,
+    "display_name": "ඳු",
+    "category": "sinhala_character"
+  },
+  "329": {
+    "unicode": "ඳූ",
+    "class_id": 329,
+    "index": 328,
+    "display_name": "ඳූ",
+    "category": "sinhala_character"
+  },
+  "330": {
+    "unicode": "|da ",
+    "class_id": 330,
+    "index": 329,
+    "display_name": "|da ",
+    "category": "sinhala_character"
+  },
+  "331": {
+    "unicode": " ඳ්",
+    "class_id": 331,
+    "index": 330,
+    "display_name": " ඳ්",
+    "category": "sinhala_character"
+  },
+  "332": {
+    "unicode": "ඟ",
+    "class_id": 332,
+    "index": 331,
+    "display_name": "ඟ",
+    "category": "sinhala_character"
+  },
+  "333": {
+    "unicode": "ඟා",
+    "class_id": 333,
+    "index": 332,
+    "display_name": "ඟා",
+    "category": "sinhala_character"
+  },
+  "334": {
+    "unicode": "ඟැ",
+    "class_id": 334,
+    "index": 333,
+    "display_name": "ඟැ",
+    "category": "sinhala_character"
+  },
+  "335": {
+    "unicode": " ඟෑ",
+    "class_id": 335,
+    "index": 334,
+    "display_name": " ඟෑ",
+    "category": "sinhala_character"
+  },
+  "336": {
+    "unicode": " ඟි",
+    "class_id": 336,
+    "index": 335,
+    "display_name": " ඟි",
+    "category": "sinhala_character"
+  },
+  "337": {
+    "unicode": "ඟී",
+    "class_id": 337,
+    "index": 336,
+    "display_name": "ඟී",
+    "category": "sinhala_character"
+  },
+  "338": {
+    "unicode": " ඟු",
+    "class_id": 338,
+    "index": 337,
+    "display_name": " ඟු",
+    "category": "sinhala_character"
+  },
+  "339": {
+    "unicode": " ඟූ",
+    "class_id": 339,
+    "index": 338,
+    "display_name": " ඟූ",
+    "category": "sinhala_character"
+  },
+  "340": {
+    "unicode": "Õda",
+    "class_id": 340,
+    "index": 339,
+    "display_name": "Õda",
+    "category": "sinhala_character"
+  },
+  "341": {
+    "unicode": "ඟ්",
+    "class_id": 341,
+    "index": 340,
+    "display_name": "ඟ්",
+    "category": "sinhala_character"
+  },
+  "342": {
+    "unicode": "ඬ",
+    "class_id": 342,
+    "index": 341,
+    "display_name": "ඬ",
+    "category": "sinhala_character"
+  },
+  "343": {
+    "unicode": "ැ",
+    "class_id": 343,
+    "index": 342,
+    "display_name": "ැ",
+    "category": "sinhala_character"
+  },
+  "344": {
+    "unicode": "ඬා",
+    "class_id": 344,
+    "index": 343,
+    "display_name": "ඬා",
+    "category": "sinhala_character"
+  },
+  "345": {
+    "unicode": " ඬැ",
+    "class_id": 345,
+    "index": 344,
+    "display_name": " ඬැ",
+    "category": "sinhala_character"
+  },
+  "346": {
+    "unicode": "ඬෑ",
+    "class_id": 346,
+    "index": 345,
+    "display_name": "ඬෑ",
+    "category": "sinhala_character"
+  },
+  "347": {
+    "unicode": " ඬි",
+    "class_id": 347,
+    "index": 346,
+    "display_name": " ඬි",
+    "category": "sinhala_character"
+  },
+  "348": {
+    "unicode": "ඬී",
+    "class_id": 348,
+    "index": 347,
+    "display_name": "ඬී",
+    "category": "sinhala_character"
+  },
+  "349": {
+    "unicode": " ඬු",
+    "class_id": 349,
+    "index": 348,
+    "display_name": " ඬු",
+    "category": "sinhala_character"
+  },
+  "350": {
+    "unicode": "ඬූ",
+    "class_id": 350,
+    "index": 349,
+    "display_name": "ඬූ",
+    "category": "sinhala_character"
+  },
+  "351": {
+    "unicode": "ඬda ",
+    "class_id": 351,
+    "index": 350,
+    "display_name": "ඬda ",
+    "category": "sinhala_character"
+  },
+  "352": {
+    "unicode": " ඬ්",
+    "class_id": 352,
+    "index": 351,
+    "display_name": " ඬ්",
+    "category": "sinhala_character"
+  },
+  "353": {
+    "unicode": "ඹ",
+    "class_id": 353,
+    "index": 352,
+    "display_name": "ඹ",
+    "category": "sinhala_character"
+  },
+  "354": {
+    "unicode": "ඹා",
+    "class_id": 354,
+    "index": 353,
+    "display_name": "ඹා",
+    "category": "sinhala_character"
+  },
+  "355": {
+    "unicode": " ඹැ",
+    "class_id": 355,
+    "index": 354,
+    "display_name": " ඹැ",
+    "category": "sinhala_character"
+  },
+  "356": {
+    "unicode": " ඹෑ",
+    "class_id": 356,
+    "index": 355,
+    "display_name": " ඹෑ",
+    "category": "sinhala_character"
+  },
+  "357": {
+    "unicode": " ඹි",
+    "class_id": 357,
+    "index": 356,
+    "display_name": " ඹි",
+    "category": "sinhala_character"
+  },
+  "358": {
+    "unicode": "ඹී",
+    "class_id": 358,
+    "index": 357,
+    "display_name": "ඹී",
+    "category": "sinhala_character"
+  },
+  "359": {
+    "unicode": " ඹු",
+    "class_id": 359,
+    "index": 358,
+    "display_name": " ඹු",
+    "category": "sinhala_character"
+  },
+  "360": {
+    "unicode": "ඹූ",
+    "class_id": 360,
+    "index": 359,
+    "display_name": "ඹූ",
+    "category": "sinhala_character"
+  },
+  "361": {
+    "unicode": "Uda",
+    "class_id": 361,
+    "index": 360,
+    "display_name": "Uda",
+    "category": "sinhala_character"
+  },
+  "362": {
+    "unicode": "ඹ්",
+    "class_id": 362,
+    "index": 361,
+    "display_name": "ඹ්",
+    "category": "sinhala_character"
+  },
+  "363": {
+    "unicode": "භ",
+    "class_id": 363,
+    "index": 362,
+    "display_name": "භ",
+    "category": "sinhala_character"
+  },
+  "364": {
+    "unicode": "භා",
+    "class_id": 364,
+    "index": 363,
+    "display_name": "භා",
+    "category": "sinhala_character"
+  },
+  "365": {
+    "unicode": "භැ",
+    "class_id": 365,
+    "index": 364,
+    "display_name": "භැ",
+    "category": "sinhala_character"
+  },
+  "366": {
+    "unicode": "භෑ",
+    "class_id": 366,
+    "index": 365,
+    "display_name": "භෑ",
+    "category": "sinhala_character"
+  },
+  "367": {
+    "unicode": "භි",
+    "class_id": 367,
+    "index": 366,
+    "display_name": "භි",
+    "category": "sinhala_character"
+  },
+  "368": {
+    "unicode": "භී",
+    "class_id": 368,
+    "index": 367,
+    "display_name": "භී",
+    "category": "sinhala_character"
+  },
+  "369": {
+    "unicode": "භු",
+    "class_id": 369,
+    "index": 368,
+    "display_name": "භු",
+    "category": "sinhala_character"
+  },
+  "370": {
+    "unicode": "භූ",
+    "class_id": 370,
+    "index": 369,
+    "display_name": "භූ",
+    "category": "sinhala_character"
+  },
+  "371": {
+    "unicode": "Nda",
+    "class_id": 371,
+    "index": 370,
+    "display_name": "Nda",
+    "category": "sinhala_character"
+  },
+  "372": {
+    "unicode": "භ්",
+    "class_id": 372,
+    "index": 371,
+    "display_name": "භ්",
+    "category": "sinhala_character"
+  },
+  "373": {
+    "unicode": "ධ",
+    "class_id": 373,
+    "index": 372,
+    "display_name": "ධ",
+    "category": "sinhala_character"
+  },
+  "374": {
+    "unicode": "ධා",
+    "class_id": 374,
+    "index": 373,
+    "display_name": "ධා",
+    "category": "sinhala_character"
+  },
+  "375": {
+    "unicode": "ධැ",
+    "class_id": 375,
+    "index": 374,
+    "display_name": "ධැ",
+    "category": "sinhala_character"
+  },
+  "376": {
+    "unicode": "ධෑ",
+    "class_id": 376,
+    "index": 375,
+    "display_name": "ධෑ",
+    "category": "sinhala_character"
+  },
+  "377": {
+    "unicode": ",ධි",
+    "class_id": 377,
+    "index": 376,
+    "display_name": ",ධි",
+    "category": "sinhala_character"
+  },
+  "378": {
+    "unicode": ",ධී",
+    "class_id": 378,
+    "index": 377,
+    "display_name": ",ධී",
+    "category": "sinhala_character"
+  },
+  "379": {
+    "unicode": ",ධු",
+    "class_id": 379,
+    "index": 378,
+    "display_name": ",ධු",
+    "category": "sinhala_character"
+  },
+  "380": {
+    "unicode": ",ධූ",
+    "class_id": 380,
+    "index": 379,
+    "display_name": ",ධූ",
+    "category": "sinhala_character"
+  },
+  "381": {
+    "unicode": "ධෝ",
+    "class_id": 381,
+    "index": 380,
+    "display_name": "ධෝ",
+    "category": "sinhala_character"
+  },
+  "382": {
+    "unicode": "ධ්",
+    "class_id": 382,
+    "index": 381,
+    "display_name": "ධ්",
+    "category": "sinhala_character"
+  },
+  "383": {
+    "unicode": "ඨ",
+    "class_id": 383,
+    "index": 382,
+    "display_name": "ඨ",
+    "category": "sinhala_character"
+  },
+  "384": {
+    "unicode": "ඨා",
+    "class_id": 384,
+    "index": 383,
+    "display_name": "ඨා",
+    "category": "sinhala_character"
+  },
+  "385": {
+    "unicode": "ඨැ",
+    "class_id": 385,
+    "index": 384,
+    "display_name": "ඨැ",
+    "category": "sinhala_character"
+  },
+  "386": {
+    "unicode": "ඨි",
+    "class_id": 386,
+    "index": 385,
+    "display_name": "ඨි",
+    "category": "sinhala_character"
+  },
+  "387": {
+    "unicode": "ඨී",
+    "class_id": 387,
+    "index": 386,
+    "display_name": "ඨී",
+    "category": "sinhala_character"
+  },
+  "388": {
+    "unicode": "ඨු",
+    "class_id": 388,
+    "index": 387,
+    "display_name": "ඨු",
+    "category": "sinhala_character"
+  },
+  "389": {
+    "unicode": "ඨූ",
+    "class_id": 389,
+    "index": 388,
+    "display_name": "ඨූ",
+    "category": "sinhala_character"
+  },
+  "390": {
+    "unicode": "ඨ්",
+    "class_id": 390,
+    "index": 389,
+    "display_name": "ඨ්",
+    "category": "sinhala_character"
+  },
+  "391": {
+    "unicode": "ඪ",
+    "class_id": 391,
+    "index": 390,
+    "display_name": "ඪ",
+    "category": "sinhala_character"
+  },
+  "392": {
+    "unicode": "ඪා",
+    "class_id": 392,
+    "index": 391,
+    "display_name": "ඪා",
+    "category": "sinhala_character"
+  },
+  "393": {
+    "unicode": "ඪි",
+    "class_id": 393,
+    "index": 392,
+    "display_name": "ඪි",
+    "category": "sinhala_character"
+  },
+  "394": {
+    "unicode": "Vda",
+    "class_id": 394,
+    "index": 393,
+    "display_name": "Vda",
+    "category": "sinhala_character"
+  },
+  "395": {
+    "unicode": "ඵ",
+    "class_id": 395,
+    "index": 394,
+    "display_name": "ඵ",
+    "category": "sinhala_character"
+  },
+  "396": {
+    "unicode": "ඵා",
+    "class_id": 396,
+    "index": 395,
+    "display_name": "ඵා",
+    "category": "sinhala_character"
+  },
+  "397": {
+    "unicode": "ඵු",
+    "class_id": 397,
+    "index": 396,
+    "display_name": "ඵු",
+    "category": "sinhala_character"
+  },
+  "398": {
+    "unicode": "ඵි",
+    "class_id": 398,
+    "index": 397,
+    "display_name": "ඵි",
+    "category": "sinhala_character"
+  },
+  "399": {
+    "unicode": "Mda",
+    "class_id": 399,
+    "index": 398,
+    "display_name": "Mda",
+    "category": "sinhala_character"
+  },
+  "400": {
+    "unicode": "ඵ් ",
+    "class_id": 400,
+    "index": 399,
+    "display_name": "ඵ් ",
+    "category": "sinhala_character"
+  },
+  "401": {
+    "unicode": "ථ",
+    "class_id": 401,
+    "index": 400,
+    "display_name": "ථ",
+    "category": "sinhala_character"
+  },
+  "402": {
+    "unicode": "ථා",
+    "class_id": 402,
+    "index": 401,
+    "display_name": "ථා",
+    "category": "sinhala_character"
+  },
+  "403": {
+    "unicode": "ථැ",
+    "class_id": 403,
+    "index": 402,
+    "display_name": "ථැ",
+    "category": "sinhala_character"
+  },
+  "404": {
+    "unicode": "ථ්",
+    "class_id": 404,
+    "index": 403,
+    "display_name": "ථ්",
+    "category": "sinhala_character"
+  },
+  "405": {
+    "unicode": "ා",
+    "class_id": 405,
+    "index": 404,
+    "display_name": "ා",
+    "category": "sinhala_character"
+  },
+  "406": {
+    "unicode": "ෟ",
+    "class_id": 406,
+    "index": 405,
+    "display_name": "ෟ",
+    "category": "sinhala_character"
+  },
+  "407": {
+    "unicode": "ණැ",
+    "class_id": 407,
+    "index": 406,
+    "display_name": "ණැ",
+    "category": "sinhala_character"
+  },
+  "408": {
+    "unicode": "ණෑ",
+    "class_id": 408,
+    "index": 407,
+    "display_name": "ණෑ",
+    "category": "sinhala_character"
+  },
+  "409": {
+    "unicode": "ෘ",
+    "class_id": 409,
+    "index": 408,
+    "display_name": "ෘ",
+    "category": "sinhala_character"
+  },
+  "410": {
+    "unicode": "ණී",
+    "class_id": 410,
+    "index": 409,
+    "display_name": "ණී",
+    "category": "sinhala_character"
+  },
+  "411": {
+    "unicode": "ණු",
+    "class_id": 411,
+    "index": 410,
+    "display_name": "ණු",
+    "category": "sinhala_character"
+  },
+  "412": {
+    "unicode": "ණූ",
+    "class_id": 412,
+    "index": 411,
+    "display_name": "ණූ",
+    "category": "sinhala_character"
+  },
+  "413": {
+    "unicode": "Kda",
+    "class_id": 413,
+    "index": 412,
+    "display_name": "Kda",
+    "category": "sinhala_character"
+  },
+  "414": {
+    "unicode": "ණ්",
+    "class_id": 414,
+    "index": 413,
+    "display_name": "ණ්",
+    "category": "sinhala_character"
+  },
+  "415": {
+    "unicode": "ඥ",
+    "class_id": 415,
+    "index": 414,
+    "display_name": "ඥ",
+    "category": "sinhala_character"
+  },
+  "416": {
+    "unicode": "ඥා",
+    "class_id": 416,
+    "index": 415,
+    "display_name": "ඥා",
+    "category": "sinhala_character"
+  },
+  "417": {
+    "unicode": "{da",
+    "class_id": 417,
+    "index": 416,
+    "display_name": "{da",
+    "category": "sinhala_character"
+  },
+  "418": {
+    "unicode": "ඤ",
+    "class_id": 418,
+    "index": 417,
+    "display_name": "ඤ",
+    "category": "sinhala_character"
+  },
+  "419": {
+    "unicode": "ඤා",
+    "class_id": 419,
+    "index": 418,
+    "display_name": "ඤා",
+    "category": "sinhala_character"
+  },
+  "420": {
+    "unicode": "ඤු",
+    "class_id": 420,
+    "index": 419,
+    "display_name": "ඤු",
+    "category": "sinhala_character"
+  },
+  "421": {
+    "unicode": "[da",
+    "class_id": 421,
+    "index": 420,
+    "display_name": "[da",
+    "category": "sinhala_character"
+  },
+  "422": {
+    "unicode": "ඤ්",
+    "class_id": 422,
+    "index": 421,
+    "display_name": "ඤ්",
+    "category": "sinhala_character"
+  },
+  "423": {
+    "unicode": "ඣ",
+    "class_id": 423,
+    "index": 422,
+    "display_name": "ඣ",
+    "category": "sinhala_character"
+  },
+  "424": {
+    "unicode": "ඣා",
+    "class_id": 424,
+    "index": 423,
+    "display_name": "ඣා",
+    "category": "sinhala_character"
+  },
+  "425": {
+    "unicode": "ඣු",
+    "class_id": 425,
+    "index": 424,
+    "display_name": "ඣු",
+    "category": "sinhala_character"
+  },
+  "426": {
+    "unicode": "COda",
+    "class_id": 426,
+    "index": 425,
+    "display_name": "COda",
+    "category": "sinhala_character"
+  },
+  "427": {
+    "unicode": "ඣ්",
+    "class_id": 427,
+    "index": 426,
+    "display_name": "ඣ්",
+    "category": "sinhala_character"
+  },
+  "428": {
+    "unicode": "ඦ",
+    "class_id": 428,
+    "index": 427,
+    "display_name": "ඦ",
+    "category": "sinhala_character"
+  },
+  "429": {
+    "unicode": "ඦා",
+    "class_id": 429,
+    "index": 428,
+    "display_name": "ඦා",
+    "category": "sinhala_character"
+  },
+  "430": {
+    "unicode": "ඦැ",
+    "class_id": 430,
+    "index": 429,
+    "display_name": "ඦැ",
+    "category": "sinhala_character"
+  },
+  "431": {
+    "unicode": "ඦෑ",
+    "class_id": 431,
+    "index": 430,
+    "display_name": "ඦෑ",
+    "category": "sinhala_character"
+  },
+  "432": {
+    "unicode": "ඦි",
+    "class_id": 432,
+    "index": 431,
+    "display_name": "ඦි",
+    "category": "sinhala_character"
+  },
+  "433": {
+    "unicode": "ඦු",
+    "class_id": 433,
+    "index": 432,
+    "display_name": "ඦු",
+    "category": "sinhala_character"
+  },
+  "434": {
+    "unicode": "ඦූ",
+    "class_id": 434,
+    "index": 433,
+    "display_name": "ඦූ",
+    "category": "sinhala_character"
+  },
+  "435": {
+    "unicode": "ඦෝ",
+    "class_id": 435,
+    "index": 434,
+    "display_name": "ඦෝ",
+    "category": "sinhala_character"
+  },
+  "436": {
+    "unicode": "ඦ්",
+    "class_id": 436,
+    "index": 435,
+    "display_name": "ඦ්",
+    "category": "sinhala_character"
+  },
+  "437": {
+    "unicode": "ඡ",
+    "class_id": 437,
+    "index": 436,
+    "display_name": "ඡ",
+    "category": "sinhala_character"
+  },
+  "438": {
+    "unicode": "ඡා",
+    "class_id": 438,
+    "index": 437,
+    "display_name": "ඡා",
+    "category": "sinhala_character"
+  },
+  "439": {
+    "unicode": "ඡැ",
+    "class_id": 439,
+    "index": 438,
+    "display_name": "ඡැ",
+    "category": "sinhala_character"
+  },
+  "440": {
+    "unicode": "ඡෑ",
+    "class_id": 440,
+    "index": 439,
+    "display_name": "ඡෑ",
+    "category": "sinhala_character"
+  },
+  "441": {
+    "unicode": "ඡි",
+    "class_id": 441,
+    "index": 440,
+    "display_name": "ඡි",
+    "category": "sinhala_character"
+  },
+  "442": {
+    "unicode": "ඡේ",
+    "class_id": 442,
+    "index": 441,
+    "display_name": "ඡේ",
+    "category": "sinhala_character"
+  },
+  "443": {
+    "unicode": "තැ",
+    "class_id": 443,
+    "index": 442,
+    "display_name": "තැ",
+    "category": "sinhala_character"
+  },
+  "444": {
+    "unicode": "තෑ",
+    "class_id": 444,
+    "index": 443,
+    "display_name": "තෑ",
+    "category": "sinhala_character"
+  },
+  "445": {
+    "unicode": "ත්‍රැ",
+    "class_id": 445,
+    "index": 444,
+    "display_name": "ත්‍රැ",
+    "category": "sinhala_character"
+  },
+  "446": {
+    "unicode": "ත්‍රෑ",
+    "class_id": 446,
+    "index": 445,
+    "display_name": "ත්‍රෑ",
+    "category": "sinhala_character"
+  },
+  "447": {
+    "unicode": ";%da",
+    "class_id": 447,
+    "index": 446,
+    "display_name": ";%da",
+    "category": "sinhala_character"
+  },
+  "448": {
+    "unicode": "ළු",
+    "class_id": 448,
+    "index": 447,
+    "display_name": "ළු",
+    "category": "sinhala_character"
+  },
+  "449": {
+    "unicode": "ෲ",
+    "class_id": 449,
+    "index": 448,
+    "display_name": "ෲ",
+    "category": "sinhala_character"
+  },
+  "450": {
+    "unicode": "HQ",
+    "class_id": 450,
+    "index": 449,
+    "display_name": "HQ",
+    "category": "sinhala_character"
+  },
+  "451": {
+    "unicode": "ff",
+    "class_id": 451,
+    "index": 450,
+    "display_name": "ff",
+    "category": "sinhala_character"
+  },
+  "452": {
+    "unicode": "f",
+    "class_id": 452,
+    "index": 451,
+    "display_name": "f",
+    "category": "sinhala_character"
+  },
+  "453": {
+    "unicode": "H",
+    "class_id": 453,
+    "index": 452,
+    "display_name": "H",
+    "category": "sinhala_character"
+  },
+  "454": {
+    "unicode": "Hq",
+    "class_id": 454,
+    "index": 453,
+    "display_name": "Hq",
+    "category": "sinhala_character"
+  }
+}

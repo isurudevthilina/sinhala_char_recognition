@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+*.pth
+*.egg-info/
+.env
+.DS_Store
+models/
+runs/
+data/
